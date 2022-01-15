@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+node_modules/
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+*/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Backend/obj
+Backend/bin
+Backend/.vscode
+Backend/.vs
+Backend/Upload
+*/.vs
+*/.vscode
+*/.DS_Store
+.DS_Store
+*/node_modules
+
+*/Properties/PublishProfiles
+*/Properties/PublishProfiles
+*/app/publish
+*/build
+
+hazmi0a@20.74.161.218
+.vscode
+.vs
+admin/*
+*/obj
+*/bin
+*/.vscode
+*/.vs
+*/Upload
+
+# next.js
+.next/
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
