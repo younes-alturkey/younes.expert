@@ -3,7 +3,16 @@ module.exports = {
     darkMode: 'class',
     theme: {
         extend: {
-            colors: {},
+            fontFamily: {
+                primary: ['Cairo'],
+            },
+            colors: {
+                orange: '#F8481E',
+                ored: '#F12F40',
+                pinred: '#DE1A5E',
+                dark: '#121212',
+                light: '#FFFFFF',
+            },
         },
     },
     plugins: [],

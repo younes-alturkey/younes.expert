@@ -27,17 +27,35 @@ export default function Layout(props: PageHead) {
     return (
         <div className="relative overflow-x-hidden">
             <Head>
-                <title>{title}</title>
+                <meta name="theme-color" content="#F12F40" />
+                <meta name="author" content="Younes Alturkey" />
+                <meta property="og:title" content="Younes Alturkey" />
+                <meta
+                    property="og:description"
+                    content="Discover Younes's services, skills, projects, articles, and latest cv"
+                />
+                <meta
+                    property="og:image"
+                    content="/images/og-card-1200x630.png"
+                />
+                <meta property="og:url" content="https://younesalturkey.sa" />
+                <meta
+                    name="twitter:card"
+                    content="/images/twitter-card-600x314.png"
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content={lang} />
                 <meta name="description" content={description} />
                 <meta name="keywords" content={keywords} />
+                <title>{title}</title>
             </Head>
 
             <ToastContainer
                 position="top-center"
                 rtl={isAr}
                 toastStyle={{
-                    color: darkMode ? '#ffffff' : '#121317',
-                    backgroundColor: darkMode ? '#121317' : '#ffffff',
+                    color: darkMode ? '#FFFFFF' : '#121212',
+                    backgroundColor: darkMode ? '#121212' : '#FFFFFF',
                 }}
                 autoClose={3000}
                 closeButton={false}

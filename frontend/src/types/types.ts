@@ -22,4 +22,5 @@ export type UIState = {
 export type AppLocale = {
     lang: string
     switchLang: string
+    yat: string
 }

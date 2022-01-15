@@ -5,7 +5,7 @@
 @layer base {
     /* Body style */
     body {
-        @apply bg-red-400;
+        @apply font-primary;
     }
 
     /* Scrollbar styling */
@@ -78,6 +78,7 @@
     .-z-1 {
         z-index: -1;
     }
+
     .rtl {
         direction: rtl;
     }
@@ -85,35 +86,12 @@
     .ltr {
         direction: ltr;
     }
+
     .centered-absolute {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    /* Text components */
-    h1 {
-        @apply text-6xl font-bold;
-    }
-    h2 {
-        @apply text-5xl font-bold;
-    }
-    h3 {
-        @apply text-4xl font-bold;
-    }
-    h4 {
-        @apply text-3xl font-bold;
-    }
-    h5 {
-        @apply text-2xl font-bold;
-    }
-    h6 {
-        @apply text-xl font-bold;
-    }
-    p,
-    li {
-        @apply text-lg;
     }
 
     /* Animations */
@@ -308,26 +286,25 @@
         }
     }
 
-    /* HelveticaNeueLT font import for Arabic */
-    /* @font-face {
-        font-family: 'HelveticaNeueLT';
-        src: url(/fonts/helveticaneueltarabic/HelveticaNeueLTArabic-Light.ttf)
-            format('truetype');
-        font-weight: 400;
+    /* Typography */
+    @font-face {
+        font-family: Cairo;
+        src: url(/fonts/cairo/Cairo-Regular.ttf) format('truetype');
+        font-weight: normal;
         font-style: normal;
     }
+
     @font-face {
-        font-family: 'HelveticaNeueLT';
-        src: url(/fonts/helveticaneueltarabic/HelveticaNeueLTArabic-Roman.ttf)
-            format('truetype');
-        font-weight: 600;
+        font-family: Cairo;
+        src: url(/fonts/cairo/Cairo-Bold.ttf) format('truetype');
+        font-weight: bold;
         font-style: normal;
     }
+
     @font-face {
-        font-family: 'HelveticaNeueLT';
-        src: url(/fonts/helveticaneueltarabic/HelveticaNeueLTArabic-Bold.ttf)
-            format('truetype');
-        font-weight: 700;
-        font-style: normal;
-    } */
+        font-family: Cairo;
+        src: url(/fonts/cairo/Cairo-Black.ttf) format('truetype');
+        font-weight: bolder;
+        font-style: italic;
+    }
 }
