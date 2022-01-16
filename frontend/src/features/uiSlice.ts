@@ -27,6 +27,28 @@ export const uiSlice = createSlice({
             const lang = action.payload as string
             state.settings.locale = getUpdatedLocale(lang)
             const settingsToSave = {
+                ...state.settings,
+                locale: {
+                    lang: state.settings.locale.lang,
+                    dir: state.settings.locale.dir,
+                },
+            }
+            saveLocalStorage('settings', settingsToSave)
+        },
+        toggleDarkMode: state => {
+            const root = window.document.documentElement
+            state.settings.darkMode = !state.settings.darkMode
+
+            if (state.settings.darkMode) {
+                root.classList.remove('light')
+                root.classList.add('dark')
+            } else {
+                root.classList.remove('dark')
+                root.classList.add('light')
+            }
+
+            const settingsToSave = {
+                ...state.settings,
                 locale: {
                     lang: state.settings.locale.lang,
                     dir: state.settings.locale.dir,
@@ -41,7 +63,7 @@ export const uiSlice = createSlice({
             const { settings } = action.payload
 
             if (settings) {
-                const { locale } = settings
+                const { locale, darkMode } = settings
                 const { lang } = locale
                 const isAr = lang === 'ar'
                 const t = isAr ? ar : en
@@ -49,6 +71,14 @@ export const uiSlice = createSlice({
                 const root = window.document.documentElement
                 root.lang = isAr ? 'ar' : 'en'
                 root.dir = isAr ? 'rtl' : 'ltr'
+
+                if (darkMode) {
+                    root.classList.remove('light')
+                    root.classList.add('dark')
+                } else {
+                    root.classList.remove('dark')
+                    root.classList.add('light')
+                }
 
                 state.settings = {
                     ...settings,
@@ -68,7 +98,7 @@ export const uiSlice = createSlice({
     },
 })
 
-export const { setLocale } = uiSlice.actions
+export const { setLocale, toggleDarkMode } = uiSlice.actions
 
 export default uiSlice.reducer
 

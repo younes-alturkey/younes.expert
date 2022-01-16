@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                primary: ['Cairo'],
+                primary: ['Amiri'],
             },
             colors: {
                 orange: '#F8481E',

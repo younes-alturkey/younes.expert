@@ -3,9 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+    /* Html style */
+    html {
+        @apply scroll-smooth;
+    }
     /* Body style */
     body {
-        @apply font-primary;
+        @apply font-primary text-base md:text-2xl bg-light text-dark dark:bg-dark dark:text-light transition-all duration-300;
+    }
+
+    /* Colors */
+    .bg-gradient {
+        @apply bg-gradient-to-r from-orange hover:from-pinred via-ored hover:to-orange to-pinred;
+    }
+
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-orange hover:from-pinred via-ored hover:to-orange to-pinred;
     }
 
     /* Scrollbar styling */
@@ -18,11 +31,26 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        @apply bg-red-400 rounded-xl;
+        @apply bg-ored rounded-2xl;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        @apply bg-red-400;
+        @apply bg-pinred;
+    }
+
+    /* Toggle styles */
+    .toggle-checkbox {
+        border-color: #9ca3af;
+        cursor: pointer;
+    }
+
+    .toggle-checkbox:checked {
+        right: 0;
+        border-color: #f12f40;
+        animation: slide-right ease 0.15s;
+    }
+    .toggle-checkbox:checked + .toggle-label {
+        background-color: #f12f40;
     }
 
     /* Custom Widths and Heights */
@@ -74,9 +102,16 @@
         height: 1024px;
     }
 
+    .border-6 {
+        border-width: 6px;
+    }
+
     /* Positioning */
     .-z-1 {
         z-index: -1;
+    }
+    .z-999 {
+        z-index: 999;
     }
 
     .rtl {
@@ -287,24 +322,31 @@
     }
 
     /* Typography */
+
     @font-face {
-        font-family: Cairo;
-        src: url(/fonts/cairo/Cairo-Regular.ttf) format('truetype');
+        font-family: Amiri;
+        src: url(/fonts/amiri/Amiri-Regular.ttf) format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
-        font-family: Cairo;
-        src: url(/fonts/cairo/Cairo-Bold.ttf) format('truetype');
+        font-family: Amiri;
+        src: url(/fonts/amiri/Amiri-Bold.ttf) format('truetype');
         font-weight: bold;
         font-style: normal;
     }
 
     @font-face {
-        font-family: Cairo;
-        src: url(/fonts/cairo/Cairo-Black.ttf) format('truetype');
-        font-weight: bolder;
+        font-family: Amiri;
+        src: url(/fonts/amiri/Amiri-BoldItalic.ttf) format('truetype');
+        font-weight: bold;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: Amiri;
+        src: url(/fonts/amiri/Amiri-Italic.ttf) format('truetype');
+        font-weight: normal;
         font-style: italic;
     }
 }

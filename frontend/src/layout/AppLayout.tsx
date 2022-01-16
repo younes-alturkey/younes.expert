@@ -8,6 +8,7 @@ import { PageHead } from '@/src/types/types'
 import Header from '@/src/layout/Header'
 import Main from '@/src/layout/Main'
 import Footer from '@/src/layout/Footer'
+import WhatsAppLink from '@/src/components/WhatsAppLink'
 
 export default function Layout(props: PageHead) {
     const { settings, appInitialized } = useAppSelector(state => state.ui)
@@ -25,7 +26,7 @@ export default function Layout(props: PageHead) {
     }, [])
 
     return (
-        <div className="relative overflow-x-hidden">
+        <div className="relative flex flex-col h-screen">
             <Head>
                 <meta name="theme-color" content="#F12F40" />
                 <meta name="author" content="Younes Alturkey" />
@@ -67,9 +68,13 @@ export default function Layout(props: PageHead) {
                 pauseOnHover
             />
 
+            <WhatsAppLink />
+
             <Header />
-            <Main>{children}</Main>
-            <Footer />
+            <div className="overflow-y-auto flex flex-col justify-center items-center">
+                <Main>{children}</Main>
+                <Footer />
+            </div>
         </div>
     )
 }

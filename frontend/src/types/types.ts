@@ -23,4 +23,10 @@ export type AppLocale = {
     lang: string
     switchLang: string
     yat: string
+    darkTheme: string
+    myCV: string
+    softwareEngineer: string
+    discoverMyWork: string
+    notLookingForJobs: string
+    quickMsg: string
 }
