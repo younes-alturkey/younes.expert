@@ -26,7 +26,7 @@ export default function Layout(props: PageHead) {
     }, [])
 
     return (
-        <div className="relative flex flex-col h-screen">
+        <div className="relative flex flex-col justify-center items-center">
             <Head>
                 <meta name="theme-color" content="#F12F40" />
                 <meta name="author" content="Younes Alturkey" />
@@ -71,10 +71,10 @@ export default function Layout(props: PageHead) {
             <WhatsAppLink />
 
             <Header />
-            <div className="overflow-y-auto flex flex-col justify-center items-center">
-                <Main>{children}</Main>
-                <Footer />
-            </div>
+
+            <Main>{children}</Main>
+
+            <Footer />
         </div>
     )
 }

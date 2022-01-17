@@ -29,4 +29,6 @@ export type AppLocale = {
     discoverMyWork: string
     notLookingForJobs: string
     quickMsg: string
+    overview: string
+    overviewText: string
 }
