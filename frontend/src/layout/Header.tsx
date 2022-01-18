@@ -2,7 +2,7 @@ import { useAppDispatch, useAppSelector } from '@/src/app/hooks'
 import Toggle from '@/src/components/Toggle'
 import { BiGlobe } from 'react-icons/bi'
 import { toggleDarkMode, setLocale } from '@/src/features/uiSlice'
-import { CV_PDF_URL } from '@/src/config/index'
+import { MEDIA_URLS } from '@/src/config/index'
 
 export default function Header() {
     const disaptch = useAppDispatch()
@@ -18,7 +18,11 @@ export default function Header() {
                     <p className="hidden md:block">{t.darkTheme}</p>
                 </div>
                 <div className="text-xl md:text-2xl text-gradient font-bold cursor-pointer select-none hover:opacity-75">
-                    <a href={CV_PDF_URL} target="_blank" rel="noreferrer">
+                    <a
+                        href={MEDIA_URLS.CV_PDF_URL}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         {t.myCV}
                     </a>
                 </div>

@@ -1,7 +1,7 @@
 import { useAppSelector } from '@/src/app/hooks'
 import CaseStudyCard from '@/src/components/CaseStudyCard'
 import ProductCard from '@/src/components/ProductCard'
-import { ALBAIK_IMG_URL, YOUNES_IMG_URL } from '@/src/config/index'
+import { MEDIA_URLS } from '@/src/config/index'
 import AppLayout from '@/src/layout/AppLayout'
 import { useRef } from 'react'
 import { BsArrowDown } from 'react-icons/bs'
@@ -14,7 +14,7 @@ export default function HomePage() {
             <div className={styles.container}>
                 <section className={styles.section}>
                     <img
-                        src={YOUNES_IMG_URL}
+                        src={MEDIA_URLS.YOUNES_IMG_URL}
                         className={styles.personalPhoto}
                         alt="Younes Alturkey's personal photo"
                         draggable={false}
@@ -35,8 +35,7 @@ export default function HomePage() {
                     </div>
                 </section>
 
-                <section className={styles.section}>
-                    <div ref={overviewSectionRef} className="invisible mb-8" />
+                <section className={styles.section} ref={overviewSectionRef}>
                     <h2 className={styles.sectionTitle}>{t.overview}</h2>
                     <p className={styles.sectionBody}>{t.overviewText}</p>
                 </section>
@@ -68,19 +67,19 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.caseStudies}</h2>
                     <div className={styles.caseStudiesContainer}>
                         <CaseStudyCard
-                            img={ALBAIK_IMG_URL}
+                            img={MEDIA_URLS.ALBAIK_IMG_URL}
                             text={t.albaikCaseStudyText}
                             href="/"
                         />
 
                         <CaseStudyCard
-                            img={ALBAIK_IMG_URL}
+                            img={MEDIA_URLS.ALBAIK_IMG_URL}
                             text={t.albaikCaseStudyText}
                             href="/"
                         />
 
                         <CaseStudyCard
-                            img={ALBAIK_IMG_URL}
+                            img={MEDIA_URLS.ALBAIK_IMG_URL}
                             text={t.albaikCaseStudyText}
                             href="/"
                         />
@@ -92,7 +91,7 @@ export default function HomePage() {
 }
 
 const styles = {
-    container: 'flex flex-col justify-center items-center gap-32 mb-64',
+    container: 'flex flex-col justify-center items-center gap-40 mb-64',
     section: 'w-full flex flex-col gap-12 justify-center items-center',
     sectionTitle: 'text-3xl md:text-5xl font-bold mb-4',
     sectionBodyCentered: 'leading-loose text-justify md:text-center',
