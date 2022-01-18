@@ -1,7 +1,7 @@
 export default function Button(props: any) {
     const { text } = props
     return (
-        <button className="bg-gradient text-light text-2xl py-2 px-8 rounded-xl hover:opacity-75">
+        <button className="bg-gradient text-light text-2xl py-2 px-8 rounded-xl hover:opacity-7">
             {text}
         </button>
     )

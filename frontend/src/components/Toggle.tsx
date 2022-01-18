@@ -9,10 +9,11 @@ export default function Toggle() {
                 name="toggle"
                 className="toggle-checkbox absolute block w-6 h-6 rounded-full bg-dark border-6 appearance-none"
                 checked={darkMode}
+                readOnly
             />
             <label
                 htmlFor="toggle"
-                className="toggle-label block overflow-hidden h-6 rounded-full bg-gray-400 cursor-pointer"
+                className="toggle-label block overflow-hidden h-6 rounded-full bg-lightForeground cursor-pointer"
             />
         </div>
     )

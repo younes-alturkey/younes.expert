@@ -31,4 +31,15 @@ export type AppLocale = {
     quickMsg: string
     overview: string
     overviewText: string
+    digitalProducts: string
+    discoverMore: string
+    details: string
+    hungrynuts: string
+    hungrynutsOverview: string
+    pageNotFound: string
+    error404: string
+    home: string
+    more: string
+    caseStudies: string
+    albaikCaseStudyText: string
 }

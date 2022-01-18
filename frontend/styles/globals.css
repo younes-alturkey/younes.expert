@@ -40,7 +40,7 @@
 
     /* Toggle styles */
     .toggle-checkbox {
-        border-color: #9ca3af;
+        border-color: #e6e6e6;
         cursor: pointer;
     }
 
@@ -100,6 +100,10 @@
 
     .h-1024 {
         height: 1024px;
+    }
+
+    .h-70-screen {
+        height: 70vh;
     }
 
     .border-6 {

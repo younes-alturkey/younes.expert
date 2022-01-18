@@ -9,6 +9,9 @@ import Header from '@/src/layout/Header'
 import Main from '@/src/layout/Main'
 import Footer from '@/src/layout/Footer'
 import WhatsAppLink from '@/src/components/WhatsAppLink'
+import EmailLink from '@/src/components/EmailLink'
+import PhoneLink from '@/src/components/PhoneLink'
+import LinkedInLink from '@/src/components/LinkedInLink'
 
 export default function Layout(props: PageHead) {
     const { settings, appInitialized } = useAppSelector(state => state.ui)
@@ -67,6 +70,12 @@ export default function Layout(props: PageHead) {
                 draggable
                 pauseOnHover
             />
+
+            <PhoneLink />
+
+            <EmailLink />
+
+            <LinkedInLink />
 
             <WhatsAppLink />
 
