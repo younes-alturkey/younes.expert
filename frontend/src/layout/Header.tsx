@@ -1,10 +1,10 @@
-import { useAppDispatch, useAppSelector } from '@/src/app/hooks'
-import Toggle from '@/src/components/Toggle'
+import { useAppDispatch, useAppSelector } from '@/src/app'
+import { Toggle } from '@/src/components'
 import { BiGlobe } from 'react-icons/bi'
-import { toggleDarkMode, setLocale } from '@/src/features/uiSlice'
-import { MEDIA_URLS } from '@/src/config/index'
+import { MEDIA_URLS } from '@/src/config'
+import { toggleDarkMode, setLocale } from '@/src/features'
 
-export default function Header() {
+export function Header() {
     const disaptch = useAppDispatch()
     const { t, lang } = useAppSelector(state => state.ui.settings.locale)
     return (

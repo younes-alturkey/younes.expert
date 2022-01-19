@@ -1,4 +1,4 @@
-import { AppLocale } from '@/src/types/types'
+import { AppLocale } from '@/src/types'
 
 export const en: AppLocale = {
     lang: 'English',
@@ -25,6 +25,25 @@ export const en: AppLocale = {
     caseStudies: 'Case Studies',
     albaikCaseStudyText:
         'Improving the UX of Al Baik fast-food chain ordering app',
+    techArticles: 'My Articles',
+    importanceOfUxUi: 'Importance of Designing Effective UX/UI',
+    linkedIn: 'LinkedIn',
+    medium: 'Medium',
+    lawsOfUX19: 'The 19 Laws For Effective User Experince',
+    buildingLocalClones: 'Cloning Widely Used Apps For Local Adaption',
+    certsAndAchieves: 'Certs and Achievements',
+    certified: 'Certified',
+    technicalSpecialties: 'Tech Competencies',
+    fullStackWeb: 'Full Stack Web',
+    fullStackMobile: 'Full Stack Mobile',
+    backgroundDev: 'Backend Development',
+    uiDev: 'Frontend Development',
+    uiuxDesign: 'UX/UI Design',
+    projectMgmt: 'IT Project Management',
+    blockchain: 'Blockchain & Web 3.0',
+    workWithMe: 'Work With Me',
+    myValues: 'Passion, dedication, and innovation are my values',
+    msgMe: 'Email Me',
 }
 
 export const ar: AppLocale = {
@@ -53,4 +72,23 @@ export const ar: AppLocale = {
     caseStudies: 'دراسات الحالة',
     albaikCaseStudyText:
         'تحسين تجربة المستخدم لتطبيق مطعم البيك للمأكولات السريعة',
+    techArticles: 'مقالاتي',
+    importanceOfUxUi: 'أهمية تصميم واجهة وتجربة مستخدم فعالة',
+    linkedIn: 'لينكد ان',
+    medium: 'ميديم',
+    lawsOfUX19: '19 قانونًا لتجربة مستخدم فعالة',
+    buildingLocalClones: 'بناء إصدارات محلية من تطبيقات شائعة الإستخدام',
+    certsAndAchieves: 'الشهادات والإنجازات',
+    certified: 'معتمد',
+    technicalSpecialties: 'الأختصاصات التقنية',
+    fullStackWeb: 'تطوير ويب كامل',
+    fullStackMobile: 'تطوير موبايل كامل',
+    backgroundDev: 'تطوير الخلفيات',
+    uiDev: 'تطوير الواجهات',
+    uiuxDesign: 'تصميم تجربة و واجهة المستخدم',
+    projectMgmt: 'إدارة المشاريع',
+    blockchain: 'سلسلة الكتل و ويب ۳',
+    workWithMe: 'اعمل معي',
+    myValues: 'الشغف والإخلاص والابتكار هي طريقة عملي',
+    msgMe: 'ارسل إيميل',
 }

@@ -10,6 +10,7 @@ module.exports = {
                 orange: '#F8481E',
                 ored: '#F12F40',
                 pinred: '#DE1A5E',
+                success: '#097969',
                 dark: '#121212',
                 darkForeground: '#242424',
                 light: '#FFFFFF',

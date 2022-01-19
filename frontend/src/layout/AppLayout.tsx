@@ -1,19 +1,19 @@
 import 'react-toastify/dist/ReactToastify.css'
-import { ToastContainer } from 'react-toastify'
-import Head from 'next/head'
-import { useAppDispatch, useAppSelector } from '@/src/app/hooks'
 import { useEffect } from 'react'
-import { initApp } from '@/src/features/uiSlice'
-import { PageHead } from '@/src/types/types'
-import Header from '@/src/layout/Header'
-import Main from '@/src/layout/Main'
-import Footer from '@/src/layout/Footer'
-import WhatsAppLink from '@/src/components/WhatsAppLink'
-import EmailLink from '@/src/components/EmailLink'
-import PhoneLink from '@/src/components/PhoneLink'
-import LinkedInLink from '@/src/components/LinkedInLink'
+import { ToastContainer } from 'react-toastify'
+import { initApp } from '@/src/features'
+import {
+    WhatsAppLink,
+    EmailLink,
+    PhoneLink,
+    LinkedInLink,
+} from '@/src/components'
+import { useAppDispatch, useAppSelector } from '@/src/app'
+import { PageHead } from '@/src/types'
+import { Header, Main, Footer } from '@/src/layout'
+import Head from 'next/head'
 
-export default function Layout(props: PageHead) {
+export function AppLayout(props: PageHead) {
     const { settings, appInitialized } = useAppSelector(state => state.ui)
     const { locale, darkMode } = settings
     const { lang } = locale

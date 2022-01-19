@@ -1,6 +1,5 @@
-import { en, ar } from '@/src/locale/index'
-import { REST } from '@/src/types/enums'
-import { Locale } from '@/src/types/types'
+import { en, ar } from '@/src/locale'
+import { REST, Locale } from '@/src/types'
 
 export function getUpdatedLocale(lang: string): Locale {
     const newLocale = lang

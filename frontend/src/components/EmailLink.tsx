@@ -1,7 +1,7 @@
 import { AiOutlineMail } from 'react-icons/ai'
-import { useAppSelector } from '@/src/app/hooks'
+import { useAppSelector } from '@/src/app'
 
-export default function EmailLink() {
+export function EmailLink() {
     const { dir } = useAppSelector(state => state.ui.settings.locale)
     return (
         <div

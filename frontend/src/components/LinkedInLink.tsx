@@ -1,7 +1,7 @@
 import { AiFillLinkedin } from 'react-icons/ai'
-import { useAppSelector } from '@/src/app/hooks'
+import { useAppSelector } from '@/src/app'
 
-export default function LinkedInLink() {
+export function LinkedInLink() {
     const { dir } = useAppSelector(state => state.ui.settings.locale)
     return (
         <div

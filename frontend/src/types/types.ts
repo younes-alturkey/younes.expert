@@ -42,4 +42,23 @@ export type AppLocale = {
     more: string
     caseStudies: string
     albaikCaseStudyText: string
+    techArticles: string
+    importanceOfUxUi: string
+    linkedIn: string
+    medium: string
+    lawsOfUX19: string
+    buildingLocalClones: string
+    certsAndAchieves: string
+    certified: string
+    technicalSpecialties: string
+    fullStackWeb: string
+    fullStackMobile: string
+    backgroundDev: string
+    uiDev: string
+    uiuxDesign: string
+    projectMgmt: string
+    blockchain: string
+    workWithMe: string
+    myValues: string
+    msgMe: string
 }

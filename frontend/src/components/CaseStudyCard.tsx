@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FiLink2 } from 'react-icons/fi'
 
-export default function CaseStudyCard(props: any) {
+export function CaseStudyCard(props: any) {
     const { img, text, href } = props
     return (
         <div className="bg-lightForeground dark:bg-darkForeground shadow-md w-full rounded-xl flex flex-col md:flex-row justify-between items-center gap-16 py-4 px-8">

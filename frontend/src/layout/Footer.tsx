@@ -1,6 +1,6 @@
-import { useAppSelector } from '@/src/app/hooks'
+import { useAppSelector } from '@/src/app'
 
-export default function Footer() {
+export function Footer() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
     return (
         <footer className="w-full flex justify-center items-center p-4 mb-4 hover:opacity-75">

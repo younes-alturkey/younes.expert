@@ -1,6 +1,6 @@
-import { useAppSelector } from '@/src/app/hooks'
+import { useAppSelector } from '@/src/app'
 
-export default function Toggle() {
+export function Toggle() {
     const { darkMode } = useAppSelector(state => state.ui.settings)
     return (
         <div className="relative inline-block w-9 align-middle ltr">

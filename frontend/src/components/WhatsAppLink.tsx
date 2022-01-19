@@ -1,7 +1,7 @@
 import { AiOutlineWhatsApp } from 'react-icons/ai'
-import { useAppSelector } from '@/src/app/hooks'
+import { useAppSelector } from '@/src/app'
 
-export default function WhatsAppLink() {
+export function WhatsAppLink() {
     const { dir } = useAppSelector(state => state.ui.settings.locale)
     return (
         <div

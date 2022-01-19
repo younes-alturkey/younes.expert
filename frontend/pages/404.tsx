@@ -1,6 +1,6 @@
+import { AppLayout } from '@/src/layout'
 import { useAppSelector } from '@/src/app/hooks'
-import AppLayout from '@/src/layout/AppLayout'
-import LinkButton from '@/src/components/LinkButton'
+import { LinkButton } from '@/src/components'
 
 export default function NotFoundPage() {
     const { t } = useAppSelector(state => state.ui.settings.locale)

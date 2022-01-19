@@ -1,8 +1,7 @@
-import LinkButton from '@/src/components/LinkButton'
-import { useAppSelector } from '@/src/app/hooks'
+import { LinkButton } from '@/src/components'
+import { BiGlasses } from 'react-icons/bi'
 
-export default function ProductCard(props: any) {
-    const { t } = useAppSelector(state => state.ui.settings.locale)
+export function ProductCard(props: any) {
     const { title, text, href } = props
     return (
         <div className="flex flex-col justify-center items-stretch gap-16 p-8 md:w-96 rounded-xl shadow-md bg-lightForeground dark:bg-darkForeground">
@@ -11,7 +10,7 @@ export default function ProductCard(props: any) {
             </h4>
             <p className="text-lg text-center">{text}</p>
 
-            <LinkButton text={t.details} href={href} />
+            <LinkButton text={<BiGlasses size={36} />} href={href} />
         </div>
     )
 }
