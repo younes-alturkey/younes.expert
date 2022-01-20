@@ -1,6 +1,6 @@
 export * from './Button'
 export * from './LinkButton'
-export * from './CaseStudyCard'
+export * from './ArticleLinkCard'
 export * from './EmailLink'
 export * from './LinkButton'
 export * from './PhoneLink'

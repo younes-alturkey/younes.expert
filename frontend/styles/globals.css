@@ -9,7 +9,7 @@
     }
     /* Body style */
     body {
-        @apply font-primary text-lg md:text-2xl bg-light text-dark dark:bg-dark dark:text-light transition-all duration-300;
+        @apply font-primary text-xl xl:text-2xl leading-loose tracking-wider  bg-light text-dark dark:bg-dark dark:text-light transition-all duration-300;
     }
 
     /* Colors */

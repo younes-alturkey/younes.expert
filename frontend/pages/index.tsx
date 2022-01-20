@@ -6,8 +6,7 @@ import {
     BsFillPeopleFill,
 } from 'react-icons/bs'
 import {
-    AricleCard,
-    CaseStudyCard,
+    ArticleLinkCard,
     ProductCard,
     CertCard,
     SkillCard,
@@ -55,92 +54,69 @@ export default function HomePage() {
                 </section>
 
                 <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
-                    <div className={styles.productsContainer}>
-                        <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
-                        />
-
-                        <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
-                        />
-
-                        <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
-                        />
-                    </div>
-                </section>
-
-                <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>{t.caseStudies}</h2>
-                    <div className={styles.caseStudiesContainer}>
-                        <CaseStudyCard
-                            img={MEDIA_URLS.ALBAIK_IMG_URL}
-                            text={t.albaikCaseStudyText}
-                            href="/"
-                        />
-
-                        <CaseStudyCard
-                            img={MEDIA_URLS.ALBAIK_IMG_URL}
-                            text={t.albaikCaseStudyText}
-                            href="/"
-                        />
-
-                        <CaseStudyCard
-                            img={MEDIA_URLS.ALBAIK_IMG_URL}
-                            text={t.albaikCaseStudyText}
-                            href="/"
-                        />
-                    </div>
-                </section>
-
-                <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>{t.techArticles}</h2>
-                    <div className={styles.articlesContainer}>
-                        <AricleCard
-                            title={t.importanceOfUxUi}
-                            medium="/"
-                            linkedin="/"
-                        />
-                        <AricleCard
-                            title={t.lawsOfUX19}
-                            medium="/"
-                            linkedin="/"
-                        />
-                        <AricleCard
-                            title={t.buildingLocalClones}
-                            medium="/"
-                            linkedin="/"
-                        />
-                    </div>
-                </section>
-
-                <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>
                         {t.certsAndAchieves}
                     </h2>
-                    <div className={styles.certsContainer}>
+                    <div className={styles.cardRowContainer}>
+                        <CertCard
+                            img={MEDIA_URLS.KAU_IMG_URL}
+                            document={MEDIA_URLS.BSC_PDF_URL}
+                            text={t.bsc + ' — ' + t.gpaScore}
+                        />
+
+                        <CertCard
+                            img={MEDIA_URLS.SAFCSP_IMG_URL}
+                            document={MEDIA_URLS.BSC_PDF_URL}
+                            text={t.tuwaiqGraduated}
+                        />
+
                         <CertCard
                             img={MEDIA_URLS.IELTS_IMG_URL}
                             document={MEDIA_URLS.IELTS_PDF_URL}
+                            text={t.ieltBandScore}
                         />
                         <CertCard
                             img={MEDIA_URLS.CSM_IMG_URL}
                             document={MEDIA_URLS.CV_PDF_URL}
+                            text={t.certified}
                         />
                         <CertCard
                             img={MEDIA_URLS.ACSM_IMG_URL}
                             document={MEDIA_URLS.CV_PDF_URL}
+                            text={t.certified}
                         />
                         <CertCard
                             img={MEDIA_URLS.CSPSM_IMG_URL}
                             document={MEDIA_URLS.CV_PDF_URL}
+                            text={t.certified}
+                        />
+                    </div>
+                </section>
+
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
+                    <div className={styles.cardRowContainer}>
+                        <ProductCard
+                            title={t.hungrynuts}
+                            text={t.hungrynutsOverview}
+                            href="/"
+                        />
+
+                        <ProductCard
+                            title={t.hungrynuts}
+                            text={t.hungrynutsOverview}
+                            href="/"
+                        />
+
+                        <ProductCard
+                            title={t.hungrynuts}
+                            text={t.hungrynutsOverview}
+                            href="/"
+                        />
+                        <ProductCard
+                            title={t.hungrynuts}
+                            text={t.hungrynutsOverview}
+                            href="/"
                         />
                     </div>
                 </section>
@@ -149,7 +125,7 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>
                         {t.technicalSpecialties}
                     </h2>
-                    <div className={styles.techSpecialtiesContainer}>
+                    <div className={styles.cardRowContainer}>
                         <SkillCard
                             title={t.fullStackWeb}
                             icon={
@@ -223,9 +199,35 @@ export default function HomePage() {
                 </section>
 
                 <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>{t.techArticles}</h2>
+                    <div className={styles.cardColContainer}>
+                        <ArticleLinkCard
+                            img={MEDIA_URLS.ALBAIK_IMG_URL}
+                            text={t.albaikCaseStudyText}
+                            medium="/"
+                            linkedin="/"
+                        />
+
+                        <ArticleLinkCard
+                            img={MEDIA_URLS.ALBAIK_IMG_URL}
+                            text={t.albaikCaseStudyText}
+                            medium="/"
+                            linkedin="/"
+                        />
+
+                        <ArticleLinkCard
+                            img={MEDIA_URLS.ALBAIK_IMG_URL}
+                            text={t.albaikCaseStudyText}
+                            medium="/"
+                            linkedin="/"
+                        />
+                    </div>
+                </section>
+
+                <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>{t.workWithMe}</h2>
-                    <div className="bg-lightForeground dark:bg-darkForeground shadow-md w-10/12 rounded-xl flex justify-between items-center p-8">
-                        <h2 className="text-3xl">{t.myValues}</h2>
+                    <div className="bg-lightForeground dark:bg-darkForeground shadow-md w-full rounded-xl flex flex-col xl:flex-row justify-between items-center gap-8 p-8">
+                        <h2 className="text-3xl text-center">{t.myValues}</h2>
                         <Button text={t.msgMe} />
                     </div>
                 </section>
@@ -235,22 +237,15 @@ export default function HomePage() {
 }
 
 const styles = {
-    container: 'flex flex-col justify-center items-center gap-52 mb-64',
+    container: 'flex flex-col justify-center items-center gap-52 mb-32',
     section: 'w-full flex flex-col gap-12 justify-center items-center',
-    sectionTitle: 'text-3xl md:text-5xl font-bold mb-8',
-    sectionBodyCentered: 'leading-loose text-justify md:text-center',
-    sectionBody: 'text-justify leading-loose md:w-7/12',
+    cardRowContainer:
+        'w-full flex flex-col md:flex-row flex-wrap justify-center xl:justify-start items-center gap-12',
+    cardColContainer: 'w-full flex flex-col justify-center items-center gap-12',
+    sectionTitle: 'text-2xl xl:text-5xl font-bold mb-8',
+    sectionBodyCentered: 'leading-loose text-justify xl:text-center',
+    sectionBody: 'text-justify leading-loose lg:w-8/12',
     personalPhoto: 'rounded-full shadow-2xl hover:opacity-75 mb-8',
     scrollToBtn:
         'flex flex-col justify-center items-center gap-8 rounded-full p-2 bg-gradient text-light cursor-pointer hover:opacity-75 animate-bounce',
-    productsContainer:
-        'flex flex-col md:flex-row flex-wrap justify-start items-center gap-20',
-    articlesContainer:
-        'w-full flex flex-col md:flex-row flex-wrap justify-center items-center gap-20',
-    caseStudiesContainer:
-        'w-full flex flex-col justify-center items-center gap-20 md:gap-8 md:px-20',
-    certsContainer:
-        'flex flex-col md:flex-row flex-wrap justify-between items-center gap-12',
-    techSpecialtiesContainer:
-        'w-full flex justify-start items-center flex-wrap gap-8 md:gap-20 md:px-20',
 }

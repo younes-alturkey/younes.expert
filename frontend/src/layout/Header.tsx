@@ -23,7 +23,7 @@ export function Header() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        {t.myCV}
+                        {t.yat}
                     </a>
                 </div>
                 <div
@@ -32,11 +32,11 @@ export function Header() {
                         disaptch(setLocale(lang === 'ar' ? 'en' : 'ar'))
                     }
                 >
+                    <p className="hidden md:block">{t.switchLang}</p>
                     <BiGlobe
                         className={`${lang === 'en' && 'text-ored'}`}
                         size={32}
                     />
-                    <p className="hidden md:block">{t.yat}</p>
                 </div>
             </nav>
         </header>

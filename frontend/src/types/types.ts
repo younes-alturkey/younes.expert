@@ -61,4 +61,12 @@ export type AppLocale = {
     workWithMe: string
     myValues: string
     msgMe: string
+    graduatedBsc: string
+    ieltBandScore: string
+    gpaScore: string
+    honors: string
+    bsc: string
+    tuwaiqGraduated: string
+    email: string
+    phoneNumber: string
 }
