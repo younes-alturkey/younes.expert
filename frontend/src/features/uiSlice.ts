@@ -10,9 +10,9 @@ import { UIState } from '@/src/types/types'
 const initialState: UIState = {
     settings: {
         locale: {
-            lang: 'ar',
-            dir: 'rtl',
-            t: ar,
+            lang: 'en',
+            dir: 'ltr',
+            t: en,
         },
         darkMode: true,
     },
@@ -91,6 +91,9 @@ export const uiSlice = createSlice({
                 const root = window.document.documentElement
                 root.lang = state.settings.locale.lang
                 root.dir = state.settings.locale.dir
+
+                root.classList.remove('light')
+                root.classList.add('dark')
             }
 
             state.appInitialized = true
