@@ -1,9 +1,9 @@
-import Link from 'next/link'
-import { BiGlasses } from 'react-icons/bi'
+import { FaCode } from 'react-icons/fa'
+import { FiLink2 } from 'react-icons/fi'
 import { MEDIA_URLS } from '@/src/config'
 
 export function ProductCard(props: any) {
-    const { title, text, href } = props
+    const { title, text, code, link } = props
     return (
         <div className="flex flex-col justify-center items-center gap-8 p-8 px-5 rounded-xl shadow-md bg-lightForeground dark:bg-darkForeground">
             <img
@@ -22,12 +22,20 @@ export function ProductCard(props: any) {
                 <p>{text}</p>
             </div>
 
-            <Link href={href}>
-                <BiGlasses
-                    size={48}
-                    className="text-ored hover:opacity-75 cursor-pointer"
-                />
-            </Link>
+            <div className="flex justify-between items-center gap-8 text-ored">
+                <a href={link} target="_blank" rel="noreferrer">
+                    <FiLink2
+                        size={48}
+                        className="text-ored hover:opacity-75 cursor-pointer"
+                    />
+                </a>
+                <a href={code} target="_blank" rel="noreferrer">
+                    <FaCode
+                        size={48}
+                        className="text-ored hover:opacity-75 cursor-pointer"
+                    />
+                </a>
+            </div>
         </div>
     )
 }

@@ -13,9 +13,9 @@ import { EXTERNAL_URLS } from '@/src/config'
 export function Footer() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
     return (
-        <footer className="container flex flex-col xl:flex-row justify-between items-center gap-8 py-4 px-8 mb-8">
+        <footer className="container flex flex-col xl:flex-row justify-between items-center gap-8 py-4 px-8 mb-16">
             <a
-                href="tel:+966538654514"
+                href={EXTERNAL_URLS.YAT_PHONENUMBER_URL}
                 target="_blank"
                 rel="noreferrer"
                 className={styles.linkText}
@@ -23,7 +23,7 @@ export function Footer() {
                 <p>{t.phoneNumber}</p>
             </a>
             <a
-                href={`mailto:${t.email}`}
+                href={EXTERNAL_URLS.YAT_EMAIL_URL}
                 target="_blank"
                 rel="noreferrer"
                 className={styles.linkText}

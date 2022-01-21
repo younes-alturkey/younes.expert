@@ -5,19 +5,20 @@ import {
     BsStack,
     BsFillPeopleFill,
 } from 'react-icons/bs'
+import { HiOutlineMail } from 'react-icons/hi'
 import {
-    ArticleLinkCard,
     ProductCard,
     CertCard,
     SkillCard,
-    Button,
+    ArticleLinkCard,
 } from '@/src/components'
 import { AppLayout } from '@/src/layout'
-import { MEDIA_URLS } from '@/src/config'
+import { ARTICLES_URLS, EXTERNAL_URLS, MEDIA_URLS } from '@/src/config'
 import { useAppSelector } from '@/src/app'
 import { FaCode, FaDatabase } from 'react-icons/fa'
 import { GiPencilBrush } from 'react-icons/gi'
 import { SiHiveBlockchain } from 'react-icons/si'
+import { TechCard } from '@/src/components/TechCard'
 
 export default function HomePage() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
@@ -69,26 +70,15 @@ export default function HomePage() {
                             document={MEDIA_URLS.BSC_PDF_URL}
                             text={t.tuwaiqGraduated}
                         />
-
+                        <CertCard
+                            img={MEDIA_URLS.SCE_IMG_URL}
+                            document={MEDIA_URLS.SCE_PDF_URL}
+                            text={t.csSpecialist}
+                        />
                         <CertCard
                             img={MEDIA_URLS.IELTS_IMG_URL}
                             document={MEDIA_URLS.IELTS_PDF_URL}
                             text={t.ieltBandScore}
-                        />
-                        <CertCard
-                            img={MEDIA_URLS.CSM_IMG_URL}
-                            document={MEDIA_URLS.CV_PDF_URL}
-                            text={t.certified}
-                        />
-                        <CertCard
-                            img={MEDIA_URLS.ACSM_IMG_URL}
-                            document={MEDIA_URLS.CV_PDF_URL}
-                            text={t.certified}
-                        />
-                        <CertCard
-                            img={MEDIA_URLS.CSPSM_IMG_URL}
-                            document={MEDIA_URLS.CV_PDF_URL}
-                            text={t.certified}
                         />
                     </div>
                 </section>
@@ -97,26 +87,48 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
                     <div className={styles.cardRowContainer}>
                         <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
+                            title={t.bitchunkTitle}
+                            text={t.bitchunkText}
+                            code={EXTERNAL_URLS.BITCHUNK_GITHUB_URL}
+                            link={EXTERNAL_URLS.BITCHUNK_URL}
                         />
 
                         <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
+                            title={t.spaceShooterTitle}
+                            text={t.spaceShooterText}
+                            code={EXTERNAL_URLS.SPACESHOOTER_GITHUB_URL}
+                            link={EXTERNAL_URLS.SPACESHOOTER_URL}
                         />
 
                         <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
+                            title={t.nahdiInTitle}
+                            text={t.nahdiInText}
+                            code={EXTERNAL_URLS.NAHDIIN_GITHUB_URL}
+                            link={EXTERNAL_URLS.NAHDIIN_URL}
                         />
                         <ProductCard
-                            title={t.hungrynuts}
-                            text={t.hungrynutsOverview}
-                            href="/"
+                            title={t.nahdiMobileTitle}
+                            text={t.nahdiMobileText}
+                            code={EXTERNAL_URLS.NAHDIMOBILE_GITHUB_URL}
+                            link={EXTERNAL_URLS.NAHDIMOBILE_URL}
+                        />
+                        <ProductCard
+                            title={t.soudahATSTitle}
+                            text={t.soudahATSText}
+                            code={EXTERNAL_URLS.SOUDAHATS_GITHUB_URL}
+                            link={EXTERNAL_URLS.SOUDAHATS_URL}
+                        />
+                    </div>
+                </section>
+
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>{t.techArticles}</h2>
+                    <div className={styles.cardColContainer}>
+                        <ArticleLinkCard
+                            img={MEDIA_URLS.YAT_IMG_URL}
+                            text={t.lawsOfUX19}
+                            medium={ARTICLES_URLS.LAWSOFUX19_MEDIUM_URL}
+                            linkedin={ARTICLES_URLS.LAWSOFUX19_LINKEDIN_URL}
                         />
                     </div>
                 </section>
@@ -199,27 +211,108 @@ export default function HomePage() {
                 </section>
 
                 <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>{t.techArticles}</h2>
-                    <div className={styles.cardColContainer}>
-                        <ArticleLinkCard
-                            img={MEDIA_URLS.ALBAIK_IMG_URL}
-                            text={t.albaikCaseStudyText}
-                            medium="/"
-                            linkedin="/"
+                    <h2 className={styles.sectionTitle}>{t.techStack}</h2>
+                    <div className={styles.cardRowContainer}>
+                        <TechCard title={t.git} img={MEDIA_URLS.GIT_IMG_URL} />
+                        <TechCard
+                            title={t.adobexd}
+                            img={MEDIA_URLS.ADOBEXD_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.figma}
+                            img={MEDIA_URLS.FIGMA_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.postman}
+                            img={MEDIA_URLS.POSTMAN_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.html}
+                            img={MEDIA_URLS.HTML_IMG_URL}
+                        />
+                        <TechCard title={t.css} img={MEDIA_URLS.CSS_IMG_URL} />
+                        <TechCard
+                            title={t.tailwindcss}
+                            img={MEDIA_URLS.TAILWINDCSS_IMG_URL}
+                        />
+                        <TechCard title={t.js} img={MEDIA_URLS.JS_IMG_URL} />
+                        <TechCard title={t.ts} img={MEDIA_URLS.TS_IMG_URL} />
+                        <TechCard
+                            title={t.node}
+                            img={MEDIA_URLS.NODE_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.react}
+                            img={MEDIA_URLS.REACT_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.nextjs}
+                            img={MEDIA_URLS.NEXT_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.reactNative}
+                            img={MEDIA_URLS.REACT_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.electron}
+                            img={MEDIA_URLS.ELECTRON_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.redux}
+                            img={MEDIA_URLS.REDUX_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.csharp}
+                            img={MEDIA_URLS.CSHARP_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.dotnet}
+                            img={MEDIA_URLS.DOTNET_IMG_URL}
                         />
 
-                        <ArticleLinkCard
-                            img={MEDIA_URLS.ALBAIK_IMG_URL}
-                            text={t.albaikCaseStudyText}
-                            medium="/"
-                            linkedin="/"
+                        <TechCard
+                            title={t.apache}
+                            img={MEDIA_URLS.APACHE_IMG_URL}
                         />
-
-                        <ArticleLinkCard
-                            img={MEDIA_URLS.ALBAIK_IMG_URL}
-                            text={t.albaikCaseStudyText}
-                            medium="/"
-                            linkedin="/"
+                        <TechCard
+                            title={t.nginx}
+                            img={MEDIA_URLS.NGINX_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.azure}
+                            img={MEDIA_URLS.AZURE_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.azuredevops}
+                            img={MEDIA_URLS.AZUREDEVOPS_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.mongodb}
+                            img={MEDIA_URLS.MONGODB_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.mysql}
+                            img={MEDIA_URLS.MYSQL_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.sqlite}
+                            img={MEDIA_URLS.SQLITE_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.postgres}
+                            img={MEDIA_URLS.POSTGRES_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.websockets}
+                            img={MEDIA_URLS.WEBSOCKETS_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.wordpress}
+                            img={MEDIA_URLS.WORDPRESS_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.solidity}
+                            img={MEDIA_URLS.SOLIDITY_IMG_URL}
                         />
                     </div>
                 </section>
@@ -228,7 +321,16 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.workWithMe}</h2>
                     <div className="bg-lightForeground dark:bg-darkForeground shadow-md w-full rounded-xl flex flex-col xl:flex-row justify-between items-center gap-8 p-8">
                         <h2 className="text-3xl text-center">{t.myValues}</h2>
-                        <Button text={t.msgMe} />
+                        <a
+                            href={EXTERNAL_URLS.YAT_EMAIL_URL}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <HiOutlineMail
+                                size={48}
+                                className="text-ored hover:opacity-75 cursor-pointer"
+                            />
+                        </a>
                     </div>
                 </section>
             </div>
@@ -238,7 +340,7 @@ export default function HomePage() {
 
 const styles = {
     container: 'flex flex-col justify-center items-center gap-52 mb-32',
-    section: 'w-full flex flex-col gap-12 justify-center items-center',
+    section: 'w-full flex flex-col gap-6 justify-center items-center',
     cardRowContainer:
         'w-full flex flex-col md:flex-row flex-wrap justify-center xl:justify-start items-center gap-12',
     cardColContainer: 'w-full flex flex-col justify-center items-center gap-12',

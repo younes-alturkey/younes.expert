@@ -69,4 +69,46 @@ export type AppLocale = {
     tuwaiqGraduated: string
     email: string
     phoneNumber: string
+    bitchunkTitle: string
+    bitchunkText: string
+    back: string
+    csSpecialist: string
+    spaceShooterTitle: string
+    spaceShooterText: string
+    nahdiInTitle: string
+    nahdiInText: string
+    nahdiMobileTitle: string
+    nahdiMobileText: string
+    soudahATSTitle: string
+    soudahATSText: string
+    techStack: string
+    ts: string
+    adobexd: string
+    apache: string
+    cpanel: string
+    csharp: string
+    css: string
+    html: string
+    dotnet: string
+    figma: string
+    nextjs: string
+    nginx: string
+    node: string
+    react: string
+    reactNative: string
+    tailwindcss: string
+    wordpress: string
+    redux: string
+    electron: string
+    git: string
+    azuredevops: string
+    azure: string
+    mongodb: string
+    mysql: string
+    postgres: string
+    postman: string
+    solidity: string
+    sqlite: string
+    websockets: string
+    js: string
 }

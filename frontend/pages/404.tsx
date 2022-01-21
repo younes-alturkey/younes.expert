@@ -9,7 +9,7 @@ export default function NotFoundPage() {
             <section className={styles.section}>
                 <h2 className={styles.errorCode}>{t.error404}</h2>
                 <h2 className={styles.errorMsg}>{t.pageNotFound}</h2>
-                <LinkButton text={t.home} href="/" />
+                <LinkButton text={t.back} href="/" />
             </section>
         </AppLayout>
     )

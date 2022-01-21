@@ -2,12 +2,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import { useEffect } from 'react'
 import { ToastContainer } from 'react-toastify'
 import { initApp } from '@/src/features'
-import {
-    WhatsAppLink,
-    EmailLink,
-    PhoneLink,
-    LinkedInLink,
-} from '@/src/components'
+import { WhatsAppLink, EmailLink, PhoneLink } from '@/src/components'
 import { useAppDispatch, useAppSelector } from '@/src/app'
 import { PageHead } from '@/src/types'
 import { Header, Main, Footer } from '@/src/layout'
@@ -74,8 +69,6 @@ export function AppLayout(props: PageHead) {
             <PhoneLink />
 
             <EmailLink />
-
-            <LinkedInLink />
 
             <WhatsAppLink />
 

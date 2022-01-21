@@ -1,20 +1,21 @@
-import { AiOutlineMail } from 'react-icons/ai'
+import { HiOutlineMail } from 'react-icons/hi'
 import { useAppSelector } from '@/src/app'
+import { EXTERNAL_URLS } from '@/src/config'
 
 export function EmailLink() {
     const { dir } = useAppSelector(state => state.ui.settings.locale)
     return (
         <div
-            className={`hidden md:block bg-gradient text-light shadow-md hover:opacity-75 rounded-full p-3 fixed bottom-36 ${
+            className={`hidden md:block bg-gradient text-light shadow-md hover:opacity-75 rounded-full p-3 fixed bottom-20 ${
                 dir === 'rtl' ? 'right-4' : 'left-4'
             } flex justify-center items-center cursor-pointer shadow-xl`}
         >
             <a
-                href="mailto:hi@younesalturkey.sa"
+                href={EXTERNAL_URLS.YAT_EMAIL_URL}
                 target="_blank"
                 rel="noreferrer"
             >
-                <AiOutlineMail size={24} />
+                <HiOutlineMail size={24} />
             </a>
         </div>
     )
