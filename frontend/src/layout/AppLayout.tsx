@@ -31,7 +31,7 @@ export function AppLayout(props: PageHead) {
                 <meta property="og:title" content="Younes Alturkey" />
                 <meta
                     property="og:description"
-                    content="Discover Younes's services, skills, projects, articles, and latest cv"
+                    content="Learn about Younes's work, products, articles, skills, and download latest cv"
                 />
                 <meta
                     property="og:image"
