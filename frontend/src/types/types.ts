@@ -46,7 +46,7 @@ export type AppLocale = {
     importanceOfUxUi: string
     linkedIn: string
     medium: string
-    lawsOfUX19: string
+    lawsOfUX10: string
     buildingLocalClones: string
     certsAndAchieves: string
     certified: string

@@ -68,6 +68,8 @@ export const EXTERNAL_URLS = {
 }
 
 export const ARTICLES_URLS = {
-    LAWSOFUX19_MEDIUM_URL: 'https://www.linkedin.com/in/younes-alturkey/',
-    LAWSOFUX19_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey/',
+    LAWSOFUX10_MEDIUM_URL:
+        'https://medium.com/@younes-alturkey/10-laws-for-effective-user-experince-74aae39e2abf',
+    LAWSOFUX10_LINKEDIN_URL:
+        'https://www.linkedin.com/pulse/10-laws-effective-user-experince-younes-alturkey',
 }

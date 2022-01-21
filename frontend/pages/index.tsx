@@ -126,9 +126,9 @@ export default function HomePage() {
                     <div className={styles.cardColContainer}>
                         <ArticleLinkCard
                             img={MEDIA_URLS.YAT_IMG_URL}
-                            text={t.lawsOfUX19}
-                            medium={ARTICLES_URLS.LAWSOFUX19_MEDIUM_URL}
-                            linkedin={ARTICLES_URLS.LAWSOFUX19_LINKEDIN_URL}
+                            text={t.lawsOfUX10}
+                            medium={ARTICLES_URLS.LAWSOFUX10_MEDIUM_URL}
+                            linkedin={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
                         />
                     </div>
                 </section>
