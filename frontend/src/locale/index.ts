@@ -94,6 +94,8 @@ export const en: AppLocale = {
     sqlite: 'SQLite',
     websockets: 'Websockets',
     js: 'JavaScript',
+    becomingWorldClass:
+        'Becoming World Class is Simpler Than Landing Entry Level Jobs',
 }
 
 export const ar: AppLocale = {
@@ -191,4 +193,6 @@ export const ar: AppLocale = {
     sqlite: 'إس كيو لايت',
     websockets: 'وِب سوكِت',
     js: 'جافا سكريبت',
+    becomingWorldClass:
+        'أن تصبح محترف بمستوى عالمي هو أبسط من الحصول على أول وظيفة',
 }

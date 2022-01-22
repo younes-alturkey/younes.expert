@@ -72,4 +72,6 @@ export const ARTICLES_URLS = {
         'https://medium.com/@younes-alturkey/10-laws-for-effective-user-experince-74aae39e2abf',
     LAWSOFUX10_LINKEDIN_URL:
         'https://www.linkedin.com/pulse/10-laws-effective-user-experince-younes-alturkey',
+    BECOMINGWORLDCLASS_LINKEDIN_URL:
+        'https://www.linkedin.com/pulse/becoming-world-class-simpler-than-entry-level-jobs-younes-alturkey',
 }

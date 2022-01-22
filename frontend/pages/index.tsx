@@ -126,6 +126,16 @@ export default function HomePage() {
                     <div className={styles.cardColContainer}>
                         <ArticleLinkCard
                             img={MEDIA_URLS.YAT_IMG_URL}
+                            text={t.becomingWorldClass}
+                            linkedin={
+                                ARTICLES_URLS.BECOMINGWORLDCLASS_LINKEDIN_URL
+                            }
+                            medium={
+                                ARTICLES_URLS.BECOMINGWORLDCLASS_LINKEDIN_URL
+                            }
+                        />
+                        <ArticleLinkCard
+                            img={MEDIA_URLS.YAT_IMG_URL}
                             text={t.lawsOfUX10}
                             medium={ARTICLES_URLS.LAWSOFUX10_MEDIUM_URL}
                             linkedin={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
@@ -213,7 +223,6 @@ export default function HomePage() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>{t.techStack}</h2>
                     <div className={styles.cardRowContainer}>
-                        <TechCard title={t.git} img={MEDIA_URLS.GIT_IMG_URL} />
                         <TechCard
                             title={t.adobexd}
                             img={MEDIA_URLS.ADOBEXD_IMG_URL}
@@ -222,10 +231,7 @@ export default function HomePage() {
                             title={t.figma}
                             img={MEDIA_URLS.FIGMA_IMG_URL}
                         />
-                        <TechCard
-                            title={t.postman}
-                            img={MEDIA_URLS.POSTMAN_IMG_URL}
-                        />
+                        <TechCard title={t.git} img={MEDIA_URLS.GIT_IMG_URL} />
                         <TechCard
                             title={t.html}
                             img={MEDIA_URLS.HTML_IMG_URL}

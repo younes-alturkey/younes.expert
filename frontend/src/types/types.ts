@@ -111,4 +111,5 @@ export type AppLocale = {
     sqlite: string
     websockets: string
     js: string
+    becomingWorldClass: string
 }
