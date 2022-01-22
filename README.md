@@ -8,13 +8,9 @@
 
 ## Design - التصميم
 
-<br/>
-
 [XD Design Review](https://xd.adobe.com/view/e1c35989-ed5f-47f5-b6ec-c0124d4829a8-b490)
 
 ## Developer - المطور
-
-<br/>
 
 > Younes Alturkey - يونس التركي
 
