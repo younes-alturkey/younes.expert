@@ -7,6 +7,8 @@ import { useAppDispatch, useAppSelector } from '@/src/app'
 import { PageHead } from '@/src/types'
 import { Header, Main, Footer } from '@/src/layout'
 import Head from 'next/head'
+import ScrollToTop from 'react-scroll-to-top'
+import { BsArrowUpShort } from 'react-icons/bs'
 
 export function AppLayout(props: PageHead) {
     const { settings, appInitialized } = useAppSelector(state => state.ui)
@@ -48,6 +50,15 @@ export function AppLayout(props: PageHead) {
                 <meta name="keywords" content={keywords} />
                 <title>{title}</title>
             </Head>
+
+            <ScrollToTop
+                smooth
+                component={<BsArrowUpShort size={40} />}
+                style={{
+                    backgroundColor: '#F12F40',
+                    color: '#FFFFFF',
+                }}
+            />
 
             <ToastContainer
                 position="top-center"

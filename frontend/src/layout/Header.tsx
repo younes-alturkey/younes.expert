@@ -8,7 +8,7 @@ export function Header() {
     const disaptch = useAppDispatch()
     const { t, lang } = useAppSelector(state => state.ui.settings.locale)
     return (
-        <header className="w-full sticky top-0 left-0 shadow-md border-b dark:border-gray-900 z-999 bg-light dark:bg-dark">
+        <header className="w-full sticky top-0 left-0 shadow-md border-b dark:border-gray-900 z-999 bg-light dark:bg-dark ltr">
             <nav className="flex justify-between items-center p-4">
                 <div
                     className="flex justify-center items-center gap-4 cursor-pointer select-none hover:opacity-75"
