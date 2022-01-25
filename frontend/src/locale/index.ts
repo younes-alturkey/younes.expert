@@ -9,7 +9,7 @@ export const en: AppLocale = {
     softwareEngineer: 'Software Engineer',
     discoverMyWork:
         'Learn about my work in the field of software design and engineering and technology entrepreneurship.',
-    notLookingForJobs: 'I am not looking for a position at the moment',
+    notLookingForJobs: 'I am not looking for a position currently',
     quickMsg: 'Quick Message',
     overview: 'Overview',
     overviewText: `I work as a software engineer and I am passionate about all things technology and entrepreneurship. I graduated from King Abdulaziz University with a Bachelor of Science in Computer Science with honors in 2021. I also graduated from Tuwaiq .NET programming bootcamp conducted by Saudi Federation for Cyber Security and Programming.`,
