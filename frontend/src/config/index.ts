@@ -3,6 +3,7 @@ export const MEDIA_URLS = {
     IELTS_PDF_URL: '/documents/younes-alturkey-ielts.pdf',
     BSC_PDF_URL: '/documents/younes-alturkey-bachelor.pdf',
     SCE_PDF_URL: '/documents/younes-alturkey-sce.pdf',
+    TUWAIQ_PDF_URL: '/documents/younes-alturkey-tuwaiq.pdf',
     YOUNES_IMG_URL: '/images/younes-official.jpg',
     ALBAIK_IMG_URL: '/images/albaik_logo.png',
     NOT_FOUND_IMG_URL: '/images/404.svg',
