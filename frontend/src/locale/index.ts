@@ -45,7 +45,7 @@ export const en: AppLocale = {
     myValues: 'I love what I do.',
     msgMe: 'Work With Me',
     graduatedBsc: 'Graduated — Bsc',
-    ieltBandScore: '7.5',
+    ieltBandScore: 'Overall 7.5',
     gpaScore: '4.55',
     honors: 'Honors',
     bsc: 'Bachelors',
@@ -96,6 +96,7 @@ export const en: AppLocale = {
     js: 'JavaScript',
     becomingWorldClass:
         'Becoming World Class is Simpler Than Landing Entry Level Jobs',
+    fullstackDotNet: 'Full-stack .NET Developer',
 }
 
 export const ar: AppLocale = {
@@ -144,7 +145,7 @@ export const ar: AppLocale = {
     myValues: 'أُحب ما أعمل.',
     msgMe: 'اعمل معي',
     graduatedBsc: 'خريج — بكالوريوس',
-    ieltBandScore: '٧.٥',
+    ieltBandScore: 'إجمالي ٧.٥',
     gpaScore: '٤.٥٥',
     honors: 'مرتبة الشرف',
     bsc: 'بكالوريوس',
@@ -195,4 +196,5 @@ export const ar: AppLocale = {
     js: 'جافا سكريبت',
     becomingWorldClass:
         'أن تصبح محترف بمستوى عالمي هو أبسط من الحصول على أول وظيفة',
+    fullstackDotNet: 'مطور دوت نت كامل',
 }

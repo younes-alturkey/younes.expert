@@ -68,7 +68,7 @@ export default function HomePage() {
                         <CertCard
                             img={MEDIA_URLS.SAFCSP_IMG_URL}
                             document={MEDIA_URLS.TUWAIQ_PDF_URL}
-                            text={t.tuwaiqGraduated}
+                            text={t.fullstackDotNet}
                         />
                         <CertCard
                             img={MEDIA_URLS.SCE_IMG_URL}

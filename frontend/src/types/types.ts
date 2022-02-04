@@ -112,4 +112,5 @@ export type AppLocale = {
     websockets: string
     js: string
     becomingWorldClass: string
+    fullstackDotNet: string
 }
