@@ -64,7 +64,6 @@ export default function HomePage() {
                             document={MEDIA_URLS.BSC_PDF_URL}
                             text={t.bsc + ' — ' + t.gpaScore}
                         />
-
                         <CertCard
                             img={MEDIA_URLS.SAFCSP_IMG_URL}
                             document={MEDIA_URLS.TUWAIQ_PDF_URL}
@@ -79,6 +78,21 @@ export default function HomePage() {
                             img={MEDIA_URLS.IELTS_IMG_URL}
                             document={MEDIA_URLS.IELTS_PDF_URL}
                             text={t.ieltBandScore}
+                        />
+                        <CertCard
+                            img={MEDIA_URLS.KAU_IMG_URL}
+                            document={MEDIA_URLS.BEST_CODE_PDF_URL}
+                            text={t.bestCode}
+                        />
+                        <CertCard
+                            img={MEDIA_URLS.KAU_IMG_URL}
+                            document={MEDIA_URLS.VIJEY_LETTER_PDF_URL}
+                            text={t.recommendationLetter}
+                        />
+                        <CertCard
+                            img={MEDIA_URLS.KAU_IMG_URL}
+                            document={MEDIA_URLS.ASIF_LETTER_PDF_URL}
+                            text={t.recommendationLetter}
                         />
                     </div>
                 </section>

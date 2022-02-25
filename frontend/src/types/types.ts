@@ -113,4 +113,6 @@ export type AppLocale = {
     js: string
     becomingWorldClass: string
     fullstackDotNet: string
+    bestCode: string
+    recommendationLetter: string
 }

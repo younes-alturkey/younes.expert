@@ -97,6 +97,8 @@ export const en: AppLocale = {
     becomingWorldClass:
         'Becoming World Class is Simpler Than Landing Entry Level Jobs',
     fullstackDotNet: 'Full-stack .NET Developer',
+    bestCode: '1st Best Code — Contest',
+    recommendationLetter: 'Recommendation Letter',
 }
 
 export const ar: AppLocale = {
@@ -197,4 +199,6 @@ export const ar: AppLocale = {
     becomingWorldClass:
         'أن تصبح محترف بمستوى عالمي هو أبسط من الحصول على أول وظيفة',
     fullstackDotNet: 'مطور دوت نت كامل',
+    bestCode: 'أفضل كود — مسابقة',
+    recommendationLetter: 'شهادة توصية',
 }
