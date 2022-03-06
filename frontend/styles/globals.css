@@ -42,12 +42,13 @@
     .toggle-checkbox {
         border-color: #e6e6e6;
         cursor: pointer;
+        animation: slide-left ease 0.3s;
     }
 
     .toggle-checkbox:checked {
         right: 0;
         border-color: #f12f40;
-        animation: slide-right ease 0.15s;
+        animation: slide-right ease 0.3s;
     }
     .toggle-checkbox:checked + .toggle-label {
         background-color: #f12f40;
@@ -175,6 +176,19 @@
 
     .animate-slide-right {
         animation: slide-right ease-in 0.2s;
+    }
+
+    @keyframes slide-left {
+        from {
+            transform: translateX(8px);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
+
+    .animate-slide-left {
+        animation: slide-left ease-in 0.2s;
     }
 
     @keyframes slide-right-xl {
