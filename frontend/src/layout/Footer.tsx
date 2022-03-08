@@ -74,13 +74,6 @@ export function Footer() {
                 >
                     <FaCodepen size={28} className={styles.socialLinkIcon} />
                 </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_BEHANCE_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <BsBehance size={28} className={styles.socialLinkIcon} />
-                </a>
             </div>
         </footer>
     )
