@@ -6,7 +6,6 @@ import {
     BsReddit,
     BsTwitter,
 } from 'react-icons/bs'
-import { FaCodepen } from 'react-icons/fa'
 import { EXTERNAL_URLS } from '@/src/config'
 
 export function Footer() {
@@ -65,13 +64,6 @@ export function Footer() {
                     rel="noreferrer"
                 >
                     <BsMedium size={28} className={styles.socialLinkIcon} />
-                </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_CODEPEN_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FaCodepen size={28} className={styles.socialLinkIcon} />
                 </a>
             </div>
         </footer>
