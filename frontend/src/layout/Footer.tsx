@@ -1,6 +1,5 @@
 import { useAppSelector } from '@/src/app'
 import {
-    BsBehance,
     BsGithub,
     BsLinkedin,
     BsMedium,
