@@ -428,27 +428,23 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <div class="form-contact">
-                            
-                            <form action="https://formspree.io/f/xleznqaa" method="POST" target="_blank" id="formcontact">
-                                <div class="form-group row formwrap">
-                                    <div class="col-lg-6 pt-5">
-                                        <label for="name">Input your name</label>
-                                        <input type="text" id="name" placeholder="Your name" name="name" class="mt-3 input-control inputtext " data-name="name" />
-                                    </div>
-                                    <div class="col-lg-6 pt-5">
-                                        <label for="email">Input your email</label>
-                                        <input type="email" id="email" placeholder="Your email address" name="email" class="mt-3 input-control inputtext " data-name="email" />
-                                    </div>
-                                    <div class="col-lg-12 pt-5">
-                                        <label for="message">Input your message</label>
-                                        <textarea class="comentarea mt-3 input-control" id="message" placeholder="Your message" data-name="message" name="message"></textarea>
-                                        <button id="submitbutton" class="submitbuton button mt-5 mb-3" type="submit" onclick="resetContactForm();">Submit now</button>
-                                        <div class="contactform__loader pt-3"></div>
-
-                                    </div>
-                                </div>
-                            </form>
+                        <div class="form-group row formwrap" id="form-contact">
+                            <div class="col-lg-6 pt-5">
+                                <label for="name">Input your name</label>
+                                <input type="text" id="name" placeholder="Your name" name="name" class="mt-3 input-control inputtext " data-name="name" />
+                            </div>
+                            <div class="col-lg-6 pt-5">
+                                <label for="email">Input your email</label>
+                                <input type="email" id="email" placeholder="Your email address" name="email" class="mt-3 input-control inputtext " data-name="email" />
+                            </div>
+                            <div class="col-lg-12 pt-5">
+                                <label for="message">Input your message</label>
+                                <textarea class="comentarea mt-3 input-control" id="message" placeholder="Your message" data-name="message" name="message"></textarea>
+                                <button id="submitbutton" class="submitbuton button mt-5 mb-3" onclick="submitForm();">Submit now</button>
+                                <div class="contactform__loader pt-3"></div>
+                            </div>        
+                            <div id="submitting" class="d-none d-flex align-items-center text-warning"><div class="spinner-border spinner-border-sm mx-2" role="status" aria-hidden="true"></div><strong class="font-weight-normal">Please wait...</strong></div>
+                            <div id="submitted" class="d-none d-flex align-items-center text-success"><i class="bi bi-patch-check-fill mx-2"></i><strong class="font-weight-normal">I will contact you soon.</strong></div>                        
                         </div>
                     </div>
                 </div>

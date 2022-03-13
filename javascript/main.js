@@ -1,11 +1,3 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author        : Rama Hardian Sidik
-Template Name : Rush - multipurpose personal portfolio bootstrap 5 landing page template
-Version       : 1.1
-Filename      : main.js
-* ----------------------------------------------------------------------------------------
-*/
 const rushinit = (function () {
   "use strict";
   // variable
@@ -25,6 +17,9 @@ const rushinit = (function () {
   var information = document.querySelector(".contactform__loader");
   var inputelement = document.querySelector(".inputtext");
   var textareaelement = document.querySelector(".comentarea");
+  const submitting = document.getElementById("submitting");
+  const submitted = document.getElementById("submitted");
+
   // glass effect on desktop this will not work on firefox
   var glassx = true;
   // glass effect on mobile this will not work on firefox
@@ -344,8 +339,32 @@ function scrollContactIntoView() {
   document.getElementById("contact-section").scrollIntoView();
 }
 
-function resetContactForm() {
+function submitForm() {
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
+  var message = document.getElementById("message");
+
+  submitting.classList.remove("d-none");
+
+  const formData = new URLSearchParams();
+  formData.append("name", name.value);
+  formData.append("email", email.value);
+  formData.append("message", message.value);
+
+  fetch("https://ya-form-api.herokuapp.com/submit/hi@younesalturkey.sa", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: formData.toString(),
+    json: true,
+  });
+
   setTimeout(() => {
-    document.getElementById("formcontact").reset();
-  }, 200);
+    name.value = "";
+    email.value = "";
+    message.value = "";
+    submitting.classList.add("d-none");
+    submitted.classList.remove("d-none");
+  }, 300);
 }
