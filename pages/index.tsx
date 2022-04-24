@@ -176,6 +176,26 @@ export default function HomePage() {
                     </h2>
                     <div className={styles.cardRowContainer}>
                         <SkillCard
+                            title={t.uiDev}
+                            icon={
+                                <FaCode
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
+
+                        <SkillCard
+                            title={t.blockchain}
+                            icon={
+                                <SiHiveBlockchain
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
+
+                        <SkillCard
                             title={t.fullStackWeb}
                             icon={
                                 <BsStack
@@ -206,16 +226,6 @@ export default function HomePage() {
                         />
 
                         <SkillCard
-                            title={t.uiDev}
-                            icon={
-                                <FaCode
-                                    size={64}
-                                    className="text-ored hover:opacity-75"
-                                />
-                            }
-                        />
-
-                        <SkillCard
                             title={t.uiuxDesign}
                             icon={
                                 <GiPencilBrush
@@ -229,16 +239,6 @@ export default function HomePage() {
                             title={t.projectMgmt}
                             icon={
                                 <BsFillPeopleFill
-                                    size={64}
-                                    className="text-ored hover:opacity-75"
-                                />
-                            }
-                        />
-
-                        <SkillCard
-                            title={t.blockchain}
-                            icon={
-                                <SiHiveBlockchain
                                     size={64}
                                     className="text-ored hover:opacity-75"
                                 />
