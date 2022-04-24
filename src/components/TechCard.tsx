@@ -3,6 +3,7 @@ export function TechCard(props: any) {
     return (
         <div className="flex flex-col justify-between items-center gap-8 p-8 rounded-xl shadow-md bg-lightForeground dark:bg-darkForeground">
             <img
+                alt="Technology icon"
                 src={img}
                 width={84}
                 height={84}

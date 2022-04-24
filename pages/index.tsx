@@ -60,41 +60,49 @@ export default function HomePage() {
                     </h2>
                     <div className={styles.cardRowContainer}>
                         <CertCard
+                            alt="KAU_IMG_URL"
                             img={MEDIA_URLS.KAU_IMG_URL}
                             document={MEDIA_URLS.BSC_PDF_URL}
                             text={t.bsc + ' — ' + t.gpaScore}
                         />
                         <CertCard
+                            alt="SAFCSP_IMG_URL"
                             img={MEDIA_URLS.SAFCSP_IMG_URL}
                             document={MEDIA_URLS.TUWAIQ_PDF_URL}
                             text={t.fullstackDotNet}
                         />
                         <CertCard
+                            alt="SCE_IMG_URL"
                             img={MEDIA_URLS.SCE_IMG_URL}
                             document={MEDIA_URLS.SCE_PDF_URL}
                             text={t.csSpecialist}
                         />
                         <CertCard
+                            alt="IELTS_IMG_URL"
                             img={MEDIA_URLS.IELTS_IMG_URL}
                             document={MEDIA_URLS.IELTS_PDF_URL}
                             text={t.ieltBandScore}
                         />
                         <CertCard
+                            alt="KAU_IMG_URL"
                             img={MEDIA_URLS.KAU_IMG_URL}
                             document={MEDIA_URLS.BEST_CODE_PDF_URL}
                             text={t.bestCode}
                         />
                         <CertCard
+                            alt="KAU_IMG_URL"
                             img={MEDIA_URLS.KAU_IMG_URL}
                             document={MEDIA_URLS.VIJEY_LETTER_PDF_URL}
                             text={t.recommendationLetter}
                         />
                         <CertCard
+                            alt="KAU_IMG_URL"
                             img={MEDIA_URLS.KAU_IMG_URL}
                             document={MEDIA_URLS.ASIF_LETTER_PDF_URL}
                             text={t.recommendationLetter}
                         />
                         <CertCard
+                            alt="CSD_IMG_URL"
                             img={MEDIA_URLS.CSD_IMG_URL}
                             document={MEDIA_URLS.CSD_PDF_URL}
                             text={t.csd}

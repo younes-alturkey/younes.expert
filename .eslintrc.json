@@ -1,7 +1,14 @@
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended"],
-  "globals": {
-      "React": true,
-      "JSX": true
-  }
+    "extends": ["next/core-web-vitals", "eslint:recommended"],
+    "globals": {
+        "React": true,
+        "JSX": true
+    },
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@next/next/no-img-element": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }]
+    }
 }
