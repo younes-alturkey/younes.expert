@@ -176,6 +176,16 @@ export default function HomePage() {
                     </h2>
                     <div className={styles.cardRowContainer}>
                         <SkillCard
+                            title={t.blockchain}
+                            icon={
+                                <SiHiveBlockchain
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
+
+                        <SkillCard
                             title={t.uiDev}
                             icon={
                                 <FaCode
@@ -186,9 +196,9 @@ export default function HomePage() {
                         />
 
                         <SkillCard
-                            title={t.blockchain}
+                            title={t.backgroundDev}
                             icon={
-                                <SiHiveBlockchain
+                                <FaDatabase
                                     size={64}
                                     className="text-ored hover:opacity-75"
                                 />
@@ -209,16 +219,6 @@ export default function HomePage() {
                             title={t.fullStackMobile}
                             icon={
                                 <BsFillPhoneFill
-                                    size={64}
-                                    className="text-ored hover:opacity-75"
-                                />
-                            }
-                        />
-
-                        <SkillCard
-                            title={t.backgroundDev}
-                            icon={
-                                <FaDatabase
                                     size={64}
                                     className="text-ored hover:opacity-75"
                                 />
