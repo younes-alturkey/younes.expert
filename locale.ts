@@ -3,7 +3,7 @@ import { AppLocale } from 'types'
 export const en: AppLocale = {
     lang: 'English',
     switchLang: 'عربي',
-    yat: 'يونس التركي',
+    yat: 'Younes Alturkey',
     darkTheme: 'Dark theme',
     myCV: `Updated CV`,
     softwareEngineer: 'Software Engineer',
@@ -104,7 +104,7 @@ export const en: AppLocale = {
 export const ar: AppLocale = {
     lang: 'عربي',
     switchLang: 'English',
-    yat: 'Younes Alturkey',
+    yat: 'يونس التركي',
     darkTheme: 'المظهر الداكن',
     myCV: 'سيرتي الذاتية',
     softwareEngineer: 'مهندس برمجيات',
