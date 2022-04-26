@@ -4,7 +4,7 @@ export const en: AppLocale = {
     lang: 'English',
     switchLang: 'عربي',
     yat: 'Younes Alturkey',
-    darkTheme: 'Dark theme',
+    darkTheme: 'Dark',
     myCV: `Updated CV`,
     softwareEngineer: 'Software Engineer',
     discoverMyWork: `I specialize in frontend and blockchain engineering and I'm passionate about Technopreneurship.`,
@@ -105,7 +105,7 @@ export const ar: AppLocale = {
     lang: 'عربي',
     switchLang: 'English',
     yat: 'يونس التركي',
-    darkTheme: 'المظهر الداكن',
+    darkTheme: 'داكن',
     myCV: 'سيرتي الذاتية',
     softwareEngineer: 'مهندس برمجيات',
     discoverMyWork:
