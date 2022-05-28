@@ -11,7 +11,7 @@ export const en: AppLocale = {
     notLookingForJobs: 'I am not looking for a position currently',
     quickMsg: 'Quick Message',
     overview: 'Overview',
-    overviewText: `I have been coding since 2014 and currently work as a full-time software engineer. I am passionate about all things technology and entrepreneurship. I graduated from King Abdulaziz University with a Bachelor of Science in Computer Science with honors. I also graduated from .NET programming bootcamp.`,
+    overviewText: `I have been programming  since 2014 and I am passionate about all things technology and entrepreneurship. I graduated from King Abdulaziz University with a Bachelor of Science in Computer Science with honors. I graduated from .NET programming bootcamp by SAFCSP.`,
     digitalProducts: 'My Digital Products',
     discoverMore: 'Discover more',
     details: 'Details',
