@@ -3,6 +3,7 @@ export const MEDIA_URLS = {
     IELTS_PDF_URL: '/documents/younes-alturkey-ielts.pdf',
     CSD_PDF_URL: '/documents/younes-alturkey-csd.pdf',
     SA_CSD_PDF_URL: '/documents/younes-alturkey-sa-csd.pdf',
+    SCALEDA_TEAMS_PDF_URL: '/documents/younes-alturkey-scaleda-teams.pdf',
     BSC_PDF_URL: '/documents/younes-alturkey-bachelor.pdf',
     SCE_PDF_URL: '/documents/younes-alturkey-sce.pdf',
     ASIF_LETTER_PDF_URL: '/documents/younes-alturkey-dr-asif-letter.pdf',
@@ -50,6 +51,7 @@ export const MEDIA_URLS = {
     WEBSOCKETS_IMG_URL: '/images/websockets.png',
     CSD_IMG_URL: '/images/csd.png',
     SA_CSD_IMG_URL: '/images/sa-csm.png',
+    SCALEDA_TEAMS_IMG_URL: '/images/scaleda-teams.png',
 }
 
 export const EXTERNAL_URLS = {

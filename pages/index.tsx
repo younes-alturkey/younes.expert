@@ -90,6 +90,12 @@ export default function HomePage() {
                             text={t.sa_csd}
                         />
                         <CertCard
+                            alt="SCALED AGILE TEAMS IMG URL"
+                            img={MEDIA_URLS.SCALEDA_TEAMS_IMG_URL}
+                            document={MEDIA_URLS.SCALEDA_TEAMS_PDF_URL}
+                            text={t.scaleda_teams}
+                        />
+                        <CertCard
                             alt="CSD_IMG_URL"
                             img={MEDIA_URLS.CSD_IMG_URL}
                             document={MEDIA_URLS.CSD_PDF_URL}

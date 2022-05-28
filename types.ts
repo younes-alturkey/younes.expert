@@ -150,4 +150,5 @@ export type AppLocale = {
     recommendationLetter: string
     csd: string
     sa_csd: string
+    scaleda_teams: string
 }

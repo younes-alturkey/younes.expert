@@ -100,6 +100,7 @@ export const en: AppLocale = {
     recommendationLetter: 'Recommendation Letter',
     csd: 'Certified Solidity Developer',
     sa_csd: 'Certified Scrum Developer',
+    scaleda_teams: 'SAFe for Teams',
 }
 
 export const ar: AppLocale = {
@@ -204,4 +205,5 @@ export const ar: AppLocale = {
     recommendationLetter: 'شهادة توصية',
     csd: 'مطور سوليديتي معتمد',
     sa_csd: 'مطور سكرم معتمد',
+    scaleda_teams: 'SAFe للفرق',
 }
