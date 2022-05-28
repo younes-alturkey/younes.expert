@@ -2,6 +2,7 @@ export const MEDIA_URLS = {
     CV_PDF_URL: '/documents/younes-alturkey-cv.pdf',
     IELTS_PDF_URL: '/documents/younes-alturkey-ielts.pdf',
     CSD_PDF_URL: '/documents/younes-alturkey-csd.pdf',
+    SA_CSD_PDF_URL: '/documents/younes-alturkey-sa-csd.pdf',
     BSC_PDF_URL: '/documents/younes-alturkey-bachelor.pdf',
     SCE_PDF_URL: '/documents/younes-alturkey-sce.pdf',
     ASIF_LETTER_PDF_URL: '/documents/younes-alturkey-dr-asif-letter.pdf',
@@ -48,6 +49,7 @@ export const MEDIA_URLS = {
     POSTMAN_IMG_URL: '/images/postman.png',
     WEBSOCKETS_IMG_URL: '/images/websockets.png',
     CSD_IMG_URL: '/images/csd.png',
+    SA_CSD_IMG_URL: '/images/sa-csm.png',
 }
 
 export const EXTERNAL_URLS = {

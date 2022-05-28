@@ -149,4 +149,5 @@ export type AppLocale = {
     bestCode: string
     recommendationLetter: string
     csd: string
+    sa_csd: string
 }

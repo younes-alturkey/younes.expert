@@ -78,10 +78,22 @@ export default function HomePage() {
                             text={t.csSpecialist}
                         />
                         <CertCard
-                            alt="IELTS_IMG_URL"
+                            alt="IELTS IMG URL"
                             img={MEDIA_URLS.IELTS_IMG_URL}
                             document={MEDIA_URLS.IELTS_PDF_URL}
                             text={t.ieltBandScore}
+                        />
+                        <CertCard
+                            alt="SA-CSD IMG URL"
+                            img={MEDIA_URLS.SA_CSD_IMG_URL}
+                            document={MEDIA_URLS.SA_CSD_PDF_URL}
+                            text={t.sa_csd}
+                        />
+                        <CertCard
+                            alt="CSD_IMG_URL"
+                            img={MEDIA_URLS.CSD_IMG_URL}
+                            document={MEDIA_URLS.CSD_PDF_URL}
+                            text={t.csd}
                         />
                         <CertCard
                             alt="KAU_IMG_URL"
@@ -100,12 +112,6 @@ export default function HomePage() {
                             img={MEDIA_URLS.KAU_IMG_URL}
                             document={MEDIA_URLS.ASIF_LETTER_PDF_URL}
                             text={t.recommendationLetter}
-                        />
-                        <CertCard
-                            alt="CSD_IMG_URL"
-                            img={MEDIA_URLS.CSD_IMG_URL}
-                            document={MEDIA_URLS.CSD_PDF_URL}
-                            text={t.csd}
                         />
                     </div>
                 </section>

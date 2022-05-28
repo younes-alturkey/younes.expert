@@ -99,6 +99,7 @@ export const en: AppLocale = {
     bestCode: '1st Best Code — Contest',
     recommendationLetter: 'Recommendation Letter',
     csd: 'Certified Solidity Developer',
+    sa_csd: 'Certified Scrum Developer',
 }
 
 export const ar: AppLocale = {
@@ -202,4 +203,5 @@ export const ar: AppLocale = {
     bestCode: 'أفضل كود — مسابقة',
     recommendationLetter: 'شهادة توصية',
     csd: 'مطور سوليديتي معتمد',
+    sa_csd: 'مطور سكرم معتمد',
 }
