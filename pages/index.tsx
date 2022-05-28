@@ -176,6 +176,16 @@ export default function HomePage() {
                     </h2>
                     <div className={styles.cardRowContainer}>
                         <SkillCard
+                            title={t.fullStackWeb}
+                            icon={
+                                <BsStack
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
+
+                        <SkillCard
                             title={t.blockchain}
                             icon={
                                 <SiHiveBlockchain
@@ -199,16 +209,6 @@ export default function HomePage() {
                             title={t.backgroundDev}
                             icon={
                                 <FaDatabase
-                                    size={64}
-                                    className="text-ored hover:opacity-75"
-                                />
-                            }
-                        />
-
-                        <SkillCard
-                            title={t.fullStackWeb}
-                            icon={
-                                <BsStack
                                     size={64}
                                     className="text-ored hover:opacity-75"
                                 />
