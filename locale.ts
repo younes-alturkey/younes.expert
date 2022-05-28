@@ -39,7 +39,7 @@ export const en: AppLocale = {
     uiDev: 'Frontend Engineering',
     uiuxDesign: 'UX/UI Design',
     projectMgmt: 'IT Project Management',
-    blockchain: 'Blockchain & Web 3.0',
+    blockchain: 'Blockchain Engineerin',
     workWithMe: 'Work With Younes',
     myValues: 'I love what I do.',
     msgMe: 'Work With Me',
