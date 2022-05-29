@@ -91,9 +91,9 @@ export default function HomePage() {
                         />
                         <CertCard
                             alt="SCALED AGILE TEAMS IMG URL"
-                            img={MEDIA_URLS.SCALEDA_TEAMS_IMG_URL}
-                            document={MEDIA_URLS.SCALEDA_TEAMS_PDF_URL}
-                            text={t.scaleda_teams}
+                            img={MEDIA_URLS.SAFE_PRACTITIONER_IMG_URL}
+                            document={MEDIA_URLS.SAFE_PRACTITIONER_PDF_URL}
+                            text={t.safe_practitioner}
                         />
                         <CertCard
                             alt="CSD_IMG_URL"
@@ -263,25 +263,20 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.techStack}</h2>
                     <div className={styles.cardRowContainer}>
                         <TechCard
-                            title={t.adobexd}
-                            img={MEDIA_URLS.ADOBEXD_IMG_URL}
-                        />
-                        <TechCard
-                            title={t.figma}
-                            img={MEDIA_URLS.FIGMA_IMG_URL}
-                        />
-                        <TechCard title={t.git} img={MEDIA_URLS.GIT_IMG_URL} />
-                        <TechCard
                             title={t.html}
                             img={MEDIA_URLS.HTML_IMG_URL}
                         />
                         <TechCard title={t.css} img={MEDIA_URLS.CSS_IMG_URL} />
-                        <TechCard
-                            title={t.tailwindcss}
-                            img={MEDIA_URLS.TAILWINDCSS_IMG_URL}
-                        />
                         <TechCard title={t.js} img={MEDIA_URLS.JS_IMG_URL} />
                         <TechCard title={t.ts} img={MEDIA_URLS.TS_IMG_URL} />
+                        <TechCard
+                            title={t.csharp}
+                            img={MEDIA_URLS.CSHARP_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.solidity}
+                            img={MEDIA_URLS.SOLIDITY_IMG_URL}
+                        />
                         <TechCard
                             title={t.node}
                             img={MEDIA_URLS.NODE_IMG_URL}
@@ -291,12 +286,12 @@ export default function HomePage() {
                             img={MEDIA_URLS.REACT_IMG_URL}
                         />
                         <TechCard
-                            title={t.nextjs}
-                            img={MEDIA_URLS.NEXT_IMG_URL}
-                        />
-                        <TechCard
                             title={t.reactNative}
                             img={MEDIA_URLS.REACT_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.nextjs}
+                            img={MEDIA_URLS.NEXT_IMG_URL}
                         />
                         <TechCard
                             title={t.electron}
@@ -307,21 +302,12 @@ export default function HomePage() {
                             img={MEDIA_URLS.REDUX_IMG_URL}
                         />
                         <TechCard
-                            title={t.csharp}
-                            img={MEDIA_URLS.CSHARP_IMG_URL}
+                            title={t.tailwindcss}
+                            img={MEDIA_URLS.TAILWINDCSS_IMG_URL}
                         />
                         <TechCard
                             title={t.dotnet}
                             img={MEDIA_URLS.DOTNET_IMG_URL}
-                        />
-
-                        <TechCard
-                            title={t.apache}
-                            img={MEDIA_URLS.APACHE_IMG_URL}
-                        />
-                        <TechCard
-                            title={t.nginx}
-                            img={MEDIA_URLS.NGINX_IMG_URL}
                         />
                         <TechCard
                             title={t.azure}
@@ -348,16 +334,17 @@ export default function HomePage() {
                             img={MEDIA_URLS.POSTGRES_IMG_URL}
                         />
                         <TechCard
-                            title={t.websockets}
-                            img={MEDIA_URLS.WEBSOCKETS_IMG_URL}
-                        />
-                        <TechCard
                             title={t.wordpress}
                             img={MEDIA_URLS.WORDPRESS_IMG_URL}
                         />
+                        <TechCard title={t.git} img={MEDIA_URLS.GIT_IMG_URL} />
                         <TechCard
-                            title={t.solidity}
-                            img={MEDIA_URLS.SOLIDITY_IMG_URL}
+                            title={t.adobexd}
+                            img={MEDIA_URLS.ADOBEXD_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.figma}
+                            img={MEDIA_URLS.FIGMA_IMG_URL}
                         />
                     </div>
                 </section>

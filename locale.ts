@@ -49,7 +49,7 @@ export const en: AppLocale = {
     honors: 'Honors',
     bsc: 'Bachelors',
     tuwaiqGraduated: 'Tuwaiq Bootcamp',
-    email: 'hi@younesalturkey.sa',
+    email: 'hi@younes.ninja',
     phoneNumber: '+966 53 865 4514',
     bitchunkTitle: 'Bitchunk',
     bitchunkText: 'Secure file sharing and storage',
@@ -100,7 +100,7 @@ export const en: AppLocale = {
     recommendationLetter: 'Recommendation Letter',
     csd: 'Certified Solidity Developer',
     sa_csd: 'Certified Scrum Developer',
-    scaleda_teams: 'SAFe for Teams',
+    safe_practitioner: 'SAFe Practitioner',
 }
 
 export const ar: AppLocale = {
@@ -205,5 +205,5 @@ export const ar: AppLocale = {
     recommendationLetter: 'شهادة توصية',
     csd: 'مطور سوليديتي معتمد',
     sa_csd: 'مطور سكرم معتمد',
-    scaleda_teams: 'SAFe للفرق',
+    safe_practitioner: 'ممارس SAFe',
 }

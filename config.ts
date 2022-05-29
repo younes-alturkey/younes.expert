@@ -2,8 +2,9 @@ export const MEDIA_URLS = {
     CV_PDF_URL: '/documents/younes-alturkey-cv.pdf',
     IELTS_PDF_URL: '/documents/younes-alturkey-ielts.pdf',
     CSD_PDF_URL: '/documents/younes-alturkey-csd.pdf',
+    SAFE_PRACTITIONER_PDF_URL:
+        '/documents/younes-alturkey-safe-practitioner.pdf',
     SA_CSD_PDF_URL: '/documents/younes-alturkey-sa-csd.pdf',
-    SCALEDA_TEAMS_PDF_URL: '/documents/younes-alturkey-scaleda-teams.pdf',
     BSC_PDF_URL: '/documents/younes-alturkey-bachelor.pdf',
     SCE_PDF_URL: '/documents/younes-alturkey-sce.pdf',
     ASIF_LETTER_PDF_URL: '/documents/younes-alturkey-dr-asif-letter.pdf',
@@ -51,11 +52,11 @@ export const MEDIA_URLS = {
     WEBSOCKETS_IMG_URL: '/images/websockets.png',
     CSD_IMG_URL: '/images/csd.png',
     SA_CSD_IMG_URL: '/images/sa-csm.png',
-    SCALEDA_TEAMS_IMG_URL: '/images/scaleda-teams.png',
+    SAFE_PRACTITIONER_IMG_URL: '/images/safe-practitioner.png',
 }
 
 export const EXTERNAL_URLS = {
-    YAT_EMAIL_URL: 'mailto:hi@younesalturkey.sa',
+    YAT_EMAIL_URL: 'mailto:hi@younes.ninja',
     YAT_PHONENUMBER_URL: 'tel:+966538654514',
     YAT_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey',
     YAT_GITHUB_URL: 'https://github.com/younes-alturkey',
