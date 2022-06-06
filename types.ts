@@ -151,4 +151,5 @@ export type AppLocale = {
     csd: string
     sa_csd: string
     safe_practitioner: string
+    safe_sm: string
 }

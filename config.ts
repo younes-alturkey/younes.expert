@@ -4,6 +4,7 @@ export const MEDIA_URLS = {
     CSD_PDF_URL: '/documents/younes-alturkey-csd.pdf',
     SAFE_PRACTITIONER_PDF_URL:
         '/documents/younes-alturkey-safe-practitioner.pdf',
+    SAFE_SM_PDF_URL: '/documents/younes-alturkey-safe-sm.pdf',
     SA_CSD_PDF_URL: '/documents/younes-alturkey-sa-csd.pdf',
     BSC_PDF_URL: '/documents/younes-alturkey-bachelor.pdf',
     SCE_PDF_URL: '/documents/younes-alturkey-sce.pdf',
@@ -53,6 +54,7 @@ export const MEDIA_URLS = {
     CSD_IMG_URL: '/images/csd.png',
     SA_CSD_IMG_URL: '/images/sa-csm.png',
     SAFE_PRACTITIONER_IMG_URL: '/images/safe-practitioner.png',
+    SAFE_SM_IMG_URL: '/images/safe-sm.png',
 }
 
 export const EXTERNAL_URLS = {

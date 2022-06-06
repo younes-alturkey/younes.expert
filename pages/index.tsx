@@ -96,6 +96,12 @@ export default function HomePage() {
                             text={t.safe_practitioner}
                         />
                         <CertCard
+                            alt="SCALED AGILE SCRUM Master IMG URL"
+                            img={MEDIA_URLS.SAFE_SM_IMG_URL}
+                            document={MEDIA_URLS.SAFE_SM_PDF_URL}
+                            text={t.safe_sm}
+                        />
+                        <CertCard
                             alt="CSD_IMG_URL"
                             img={MEDIA_URLS.CSD_IMG_URL}
                             document={MEDIA_URLS.CSD_PDF_URL}

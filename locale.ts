@@ -101,6 +101,7 @@ export const en: AppLocale = {
     csd: 'Certified Solidity Developer',
     sa_csd: 'Certified Scrum Developer',
     safe_practitioner: 'SAFe Practitioner',
+    safe_sm: 'SAFe Scrum Master',
 }
 
 export const ar: AppLocale = {
@@ -205,5 +206,6 @@ export const ar: AppLocale = {
     recommendationLetter: 'شهادة توصية',
     csd: 'مطور سوليديتي معتمد',
     sa_csd: 'مطور سكرم معتمد',
-    safe_practitioner: 'ممارس SAFe',
+    safe_practitioner: 'SAFe ممارس',
+    safe_sm: 'SAFe سكرم ماستر',
 }
