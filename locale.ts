@@ -7,7 +7,7 @@ export const en: AppLocale = {
     darkTheme: 'Dark',
     myCV: `Updated CV`,
     softwareEngineer: 'Software Engineer',
-    discoverMyWork: `I specialize in software engineering and I'm passionate about Technopreneurship.`,
+    discoverMyWork: `I specialize in software engineering and passionate about Technopreneurship.`,
     notLookingForJobs: 'I am not looking for a position currently',
     quickMsg: 'Quick Message',
     overview: 'Overview',
