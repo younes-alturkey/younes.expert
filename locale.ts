@@ -7,7 +7,7 @@ export const en: AppLocale = {
     darkTheme: 'Dark',
     myCV: `Updated CV`,
     softwareEngineer: 'Software Engineer',
-    discoverMyWork: `I specialize in frontend and blockchain engineering and I'm passionate about Technopreneurship.`,
+    discoverMyWork: `I specialize in software engineering and I'm passionate about Technopreneurship.`,
     notLookingForJobs: 'I am not looking for a position currently',
     quickMsg: 'Quick Message',
     overview: 'Overview',
@@ -112,7 +112,7 @@ export const ar: AppLocale = {
     myCV: 'سيرتي الذاتية',
     softwareEngineer: 'مهندس برمجيات',
     discoverMyWork:
-        'أنا متخصص في هندسة الواجهات و تقينة البلوك تشين و شغوف جدًا بريادة الأعمال التكنولوجية.',
+        'أنا متخصص في هندسة البرمجيات و شغوف جدًا بريادة الأعمال التكنولوجية.',
     notLookingForJobs: 'لا ابحث عن وظيفة في الوقت الحالي',
     quickMsg: 'رسالة سريعة',
     overview: 'نبذة عامة',
