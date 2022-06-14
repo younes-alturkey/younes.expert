@@ -24,7 +24,7 @@ export default function HomePage() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
     const overviewSectionRef = useRef<HTMLDivElement | null>(null)
     return (
-        <AppLayout title={t.yat}>
+        <AppLayout title={t.younesAlturkey}>
             <div className={styles.container}>
                 <section className={styles.section}>
                     <img
