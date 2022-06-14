@@ -55,6 +55,7 @@ export type UIState = {
 export type AppLocale = {
     lang: string
     switchLang: string
+    younesAlturkey:string
     yat: string
     darkTheme: string
     myCV: string
