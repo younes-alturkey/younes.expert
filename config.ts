@@ -78,6 +78,11 @@ export const EXTERNAL_URLS = {
     SOUDAHATS_GITHUB_URL:
         'https://github.com/younes-alturkey/soudah-scholarship-ats',
     SOUDAHATS_URL: 'https://soudah-ats.netlify.app',
+    NUQTAH_URL: 'https://itsnuqtah.com',
+    SPF_URL: 'https://shaheenspf.sa',
+    ADMINDASHBOARD_URL: 'https://ya-admin-dashboard.vercel.app',
+    ADMINDASHBOARD_CODE_URL:
+        'https://github.com/younes-alturkey/admin-dashboard',
 }
 
 export const ARTICLES_URLS = {

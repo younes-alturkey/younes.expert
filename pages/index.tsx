@@ -5,7 +5,7 @@ import {
     BsStack,
     BsFillPeopleFill,
 } from 'react-icons/bs'
-import { HiOutlineMail } from 'react-icons/hi'
+import { HiFire, HiOutlineMail } from 'react-icons/hi'
 import {
     ProductCard,
     CertCard,
@@ -58,7 +58,7 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>
                         {t.certsAndAchieves}
                     </h2>
-                    <div className={styles.cardRowContainer}>
+                    <div className={styles.gridContainer}>
                         <CertCard
                             alt="KAU_IMG_URL"
                             img={MEDIA_URLS.KAU_IMG_URL}
@@ -130,7 +130,28 @@ export default function HomePage() {
 
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
-                    <div className={styles.cardRowContainer}>
+                    <div className={styles.gridContainer}>
+                        <ProductCard
+                            title={t.nuqtahTitle}
+                            text={t.nuqtahText}
+                            code={EXTERNAL_URLS.NUQTAH_URL}
+                            link={EXTERNAL_URLS.NUQTAH_URL}
+                        />
+
+                        <ProductCard
+                            title={t.spfTitle}
+                            text={t.spfText}
+                            code={EXTERNAL_URLS.SPF_URL}
+                            link={EXTERNAL_URLS.SPF_URL}
+                        />
+
+                        <ProductCard
+                            title={t.adminDashboardTitle}
+                            text={t.adminDashboardText}
+                            code={EXTERNAL_URLS.ADMINDASHBOARD_CODE_URL}
+                            link={EXTERNAL_URLS.ADMINDASHBOARD_URL}
+                        />
+
                         <ProductCard
                             title={t.bitchunkTitle}
                             text={t.bitchunkText}
@@ -192,7 +213,7 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>
                         {t.technicalSpecialties}
                     </h2>
-                    <div className={styles.cardRowContainer}>
+                    <div className={styles.gridContainer}>
                         <SkillCard
                             title={t.fullStackWeb}
                             icon={
@@ -262,12 +283,21 @@ export default function HomePage() {
                                 />
                             }
                         />
+                        <SkillCard
+                            title={t.productDevelopment}
+                            icon={
+                                <HiFire
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
                     </div>
                 </section>
 
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>{t.techStack}</h2>
-                    <div className={styles.cardRowContainer}>
+                    <div className={styles.gridContainer}>
                         <TechCard
                             title={t.html}
                             img={MEDIA_URLS.HTML_IMG_URL}
@@ -377,15 +407,16 @@ export default function HomePage() {
 }
 
 const styles = {
-    container: 'flex flex-col justify-center items-center gap-52 mb-32',
+    container: 'flex flex-col justify-center items-start gap-20',
     section: 'w-full flex flex-col gap-6 justify-center items-center',
-    cardRowContainer:
-        'w-full flex flex-col md:flex-row flex-wrap justify-center xl:justify-start items-center gap-12',
+    gridContainer:
+        'w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-3',
     cardColContainer: 'w-full flex flex-col justify-center items-center gap-12',
     sectionTitle: 'text-2xl xl:text-5xl font-bold mb-8',
-    sectionBodyCentered: 'leading-loose text-justify xl:text-center',
-    sectionBody: 'text-justify leading-loose lg:w-8/12',
-    personalPhoto: 'rounded-full shadow-2xl hover:opacity-75 mb-8',
+    sectionBodyCentered: 'leading-loose text-lg lg:text-2xl text-center',
+    sectionBody: 'leading-loose lg:w-8/12',
+    personalPhoto:
+        'rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 lg:w-[500px]',
     scrollToBtn:
         'flex flex-col justify-center items-center gap-8 rounded-full p-2 bg-gradient text-light cursor-pointer hover:opacity-75 animate-bounce',
 }

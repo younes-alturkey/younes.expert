@@ -55,7 +55,7 @@ export type UIState = {
 export type AppLocale = {
     lang: string
     switchLang: string
-    younesAlturkey:string
+    younesAlturkey: string
     yat: string
     darkTheme: string
     myCV: string
@@ -153,4 +153,11 @@ export type AppLocale = {
     sa_csd: string
     safe_practitioner: string
     safe_sm: string
+    nuqtahTitle: string
+    nuqtahText: string
+    spfTitle: string
+    spfText: string
+    adminDashboardTitle: string
+    adminDashboardText: string
+    productDevelopment: string
 }
