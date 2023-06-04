@@ -1,24 +1,24 @@
+import { useAppSelector } from '@/src/app'
+import {
+    ArticleLinkCard,
+    CertCard,
+    ProductCard,
+    SkillCard,
+} from '@/src/components'
+import { TechCard } from '@/src/components/TechCard'
+import { AppLayout } from '@/src/layout'
+import { ARTICLES_URLS, EXTERNAL_URLS, MEDIA_URLS } from 'config'
 import { useRef } from 'react'
 import {
     BsArrowDown,
+    BsFillPeopleFill,
     BsFillPhoneFill,
     BsStack,
-    BsFillPeopleFill,
 } from 'react-icons/bs'
-import { HiFire, HiOutlineMail } from 'react-icons/hi'
-import {
-    ProductCard,
-    CertCard,
-    SkillCard,
-    ArticleLinkCard,
-} from '@/src/components'
-import { AppLayout } from '@/src/layout'
-import { ARTICLES_URLS, EXTERNAL_URLS, MEDIA_URLS } from 'config'
-import { useAppSelector } from '@/src/app'
 import { FaCode, FaDatabase } from 'react-icons/fa'
 import { GiPencilBrush } from 'react-icons/gi'
+import { HiFire, HiOutlineMail } from 'react-icons/hi'
 import { SiHiveBlockchain } from 'react-icons/si'
-import { TechCard } from '@/src/components/TechCard'
 
 export default function HomePage() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
@@ -416,7 +416,7 @@ const styles = {
     sectionBodyCentered: 'leading-loose text-lg lg:text-2xl text-center',
     sectionBody: 'leading-loose lg:w-8/12',
     personalPhoto:
-        'rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 lg:w-[500px]',
+        'rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 h-80 lg:w-[500px] lg:h-[500px] object-cover',
     scrollToBtn:
         'flex flex-col justify-center items-center gap-8 rounded-full p-2 bg-gradient text-light cursor-pointer hover:opacity-75 animate-bounce',
 }
