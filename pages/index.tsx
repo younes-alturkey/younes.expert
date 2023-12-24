@@ -5,6 +5,7 @@ import {
     ProductCard,
     SkillCard,
 } from '@/src/components'
+import { CompanyCard } from '@/src/components/CompanyCard'
 import { TechCard } from '@/src/components/TechCard'
 import { AppLayout } from '@/src/layout'
 import { ARTICLES_URLS, EXTERNAL_URLS, MEDIA_URLS } from 'config'
@@ -36,9 +37,7 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>
                         {t.softwareEngineer}
                     </h2>
-                    <p className={styles.sectionBodyCentered}>
-                        {t.discoverMyWork}
-                    </p>
+
                     <div
                         className={styles.scrollToBtn}
                         onClick={() =>
@@ -50,7 +49,6 @@ export default function HomePage() {
                 </section>
 
                 <section className={styles.section} ref={overviewSectionRef}>
-                    <h2 className={styles.sectionTitle}>{t.overview}</h2>
                     <p className={styles.sectionBody}>{t.overviewText}</p>
                 </section>
 
@@ -205,6 +203,50 @@ export default function HomePage() {
                             text={t.lawsOfUX10}
                             medium={ARTICLES_URLS.LAWSOFUX10_MEDIUM_URL}
                             linkedin={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
+                        />
+                    </div>
+                </section>
+
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>
+                        {t.companiesIWorkedFor}
+                    </h2>
+                    <div className={styles.gridContainer}>
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.NELC_IMG_URL}
+                            link="https://nelc.gov.sa/en"
+                            text={t.nelc}
+                        />
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.NTIS_IMG_URL}
+                            link="http://ntis.com.sa"
+                            text={t.ntis}
+                        />
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"
+                            img={MEDIA_URLS.NUQTAH_URL}
+                            link="https://nuqtah.io"
+                            text={t.nuqtah}
+                        />
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.SAFCSP_IMG_URL}
+                            link="https://safcsp.org.sa/en"
+                            text={t.safcsp}
+                        />
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.NAHDI_URL}
+                            link="https://www.nahdi.sa"
+                            text={t.nahdi}
+                        />
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.MCIT_URL}
+                            link="https://www.mcit.gov.sa/en"
+                            text={t.mcit}
                         />
                     </div>
                 </section>
@@ -413,8 +455,8 @@ const styles = {
         'w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-3',
     cardColContainer: 'w-full flex flex-col justify-center items-center gap-12',
     sectionTitle: 'text-2xl xl:text-5xl font-bold mb-8',
-    sectionBodyCentered: 'leading-loose text-lg lg:text-2xl text-center',
-    sectionBody: 'leading-loose lg:w-8/12',
+    sectionBodyCentered: 'leading-loose text-lg lg:text-2xl',
+    sectionBody: 'leading-loose lg:w-8/12 text-center',
     personalPhoto:
         'rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 h-80 lg:w-[500px] lg:h-[500px] object-cover',
     scrollToBtn:

@@ -14,11 +14,16 @@ export const MEDIA_URLS = {
     TUWAIQ_PDF_URL: '/documents/younes-alturkey-tuwaiq.pdf',
     YOUNES_IMG_URL: '/images/younes-official.jpg',
     ALBAIK_IMG_URL: '/images/albaik_logo.png',
+    NTIS_IMG_URL: '/images/ntis.png',
     NOT_FOUND_IMG_URL: '/images/404.svg',
     IELTS_IMG_URL: '/images/ielts.png',
     CSM_IMG_URL: '/images/csm.png',
+    NUQTAH_URL: '/images/nuqtah.webp',
+    NAHDI_URL: '/images/nahdi.svg',
+    MCIT_URL: '/images/mcit.png',
     ACSM_IMG_URL: '/images/acsm.png',
     CSPSM_IMG_URL: '/images/cspsm.png',
+    NELC_IMG_URL: '/images/nelc.svg',
     YAT_IMG_URL: '/images/logo.png',
     KAU_IMG_URL: '/images/kau.png',
     SAFCSP_IMG_URL: '/images/safcsp.png',
@@ -58,7 +63,7 @@ export const MEDIA_URLS = {
 }
 
 export const EXTERNAL_URLS = {
-    YAT_EMAIL_URL: 'mailto:hi@younes.ninja',
+    YAT_EMAIL_URL: 'mailto:hi@younes.ai',
     YAT_PHONENUMBER_URL: 'tel:+966538654514',
     YAT_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey',
     YAT_GITHUB_URL: 'https://github.com/younes-alturkey',

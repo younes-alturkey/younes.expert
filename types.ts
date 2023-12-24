@@ -83,6 +83,7 @@ export type AppLocale = {
     lawsOfUX10: string
     buildingLocalClones: string
     certsAndAchieves: string
+    companiesIWorkedFor: string
     certified: string
     technicalSpecialties: string
     fullStackWeb: string
@@ -160,4 +161,10 @@ export type AppLocale = {
     adminDashboardTitle: string
     adminDashboardText: string
     productDevelopment: string
+    nelc: string
+    ntis: string
+    nuqtah: string
+    safcsp: string
+    nahdi: string
+    mcit: string
 }
