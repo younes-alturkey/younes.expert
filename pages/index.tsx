@@ -28,12 +28,14 @@ export default function HomePage() {
         <AppLayout title={t.younesAlturkey}>
             <div className={styles.container}>
                 <section className={styles.section}>
-                    <img
-                        src={MEDIA_URLS.YOUNES_IMG_URL}
-                        className={styles.personalPhoto}
-                        alt="Younes Alturkey's personal photo"
-                        draggable={false}
-                    />
+                    <div className="rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 h-80 lg:w-[500px] lg:h-[500px] bg-black overflow-hidden">
+                        <img
+                            src={MEDIA_URLS.YOUNES_IMG_URL}
+                            className={styles.personalPhoto}
+                            alt="Younes Alturkey's personal photo"
+                            draggable={false}
+                        />
+                    </div>
                     <h2 className={styles.sectionTitle}>
                         {t.softwareEngineer}
                     </h2>
@@ -457,8 +459,7 @@ const styles = {
     sectionTitle: 'text-2xl xl:text-5xl font-bold mb-8',
     sectionBodyCentered: 'leading-loose text-lg lg:text-2xl',
     sectionBody: 'leading-loose lg:w-8/12 text-center',
-    personalPhoto:
-        'rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 h-80 lg:w-[500px] lg:h-[500px] object-cover',
+    personalPhoto: 'w-full h-full object-contain object-bottom',
     scrollToBtn:
         'flex flex-col justify-center items-center gap-8 rounded-full p-2 bg-gradient text-light cursor-pointer hover:opacity-75 animate-bounce',
 }
