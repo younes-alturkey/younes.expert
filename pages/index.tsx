@@ -221,10 +221,10 @@ export default function HomePage() {
                             text={t.nelc}
                         />
                         <CompanyCard
-                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
-                            img={MEDIA_URLS.NTIS_IMG_URL}
-                            link="http://ntis.com.sa"
-                            text={t.ntis}
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"
+                            img={MEDIA_URLS.BHR_IMG_URL}
+                            link="http://bhr.sa"
+                            text={t.bhr}
                         />
                         <CompanyCard
                             imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"

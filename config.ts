@@ -14,7 +14,7 @@ export const MEDIA_URLS = {
     TUWAIQ_PDF_URL: '/documents/younes-alturkey-tuwaiq.pdf',
     YOUNES_IMG_URL: '/images/younes-official.jpg',
     ALBAIK_IMG_URL: '/images/albaik_logo.png',
-    NTIS_IMG_URL: '/images/ntis.png',
+    BHR_IMG_URL: '/images/bhr.png',
     NOT_FOUND_IMG_URL: '/images/404.svg',
     IELTS_IMG_URL: '/images/ielts.png',
     CSM_IMG_URL: '/images/csm.png',

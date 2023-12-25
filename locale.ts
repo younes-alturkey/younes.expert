@@ -117,6 +117,7 @@ export const en: AppLocale = {
     safcsp: 'Federation for Programming',
     nahdi: 'Nahdi Medical Company',
     mcit: 'Ministry of Communications and IT',
+    bhr: 'Bhr Solutions',
 }
 
 export const ar: AppLocale = {
@@ -237,4 +238,5 @@ export const ar: AppLocale = {
     safcsp: 'الاتحاد السعودي للبرمجة',
     nahdi: 'شركة النهدي الطبية',
     mcit: 'وزارة الاتصالات وتقنية المعلومات',
+    bhr: 'بحر الحلول',
 }

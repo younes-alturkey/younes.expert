@@ -167,4 +167,5 @@ export type AppLocale = {
     safcsp: string
     nahdi: string
     mcit: string
+    bhr: string
 }
