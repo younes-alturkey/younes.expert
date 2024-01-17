@@ -12,7 +12,7 @@ export const MEDIA_URLS = {
     VIJEY_LETTER_PDF_URL: '/documents/younes-alturkey-dr-vijey-letter.pdf',
     BEST_CODE_PDF_URL: '/documents/younes-alturkey-best-code.pdf',
     TUWAIQ_PDF_URL: '/documents/younes-alturkey-tuwaiq.pdf',
-    YOUNES_IMG_URL: '/images/younes-official.jpg',
+    YOUNES_IMG_URL: '/images/younes.png',
     ALBAIK_IMG_URL: '/images/albaik_logo.png',
     BHR_IMG_URL: '/images/bhr.png',
     NOT_FOUND_IMG_URL: '/images/404.svg',
@@ -83,7 +83,7 @@ export const EXTERNAL_URLS = {
     SOUDAHATS_GITHUB_URL:
         'https://github.com/younes-alturkey/soudah-scholarship-ats',
     SOUDAHATS_URL: 'https://soudah-ats.netlify.app',
-    NUQTAH_URL: 'https://itsnuqtah.com',
+    NUQTAH_URL: 'https://nuqtah.io',
     SPF_URL: 'https://shaheenspf.sa',
     ADMINDASHBOARD_URL: 'https://ya-admin-dashboard.vercel.app',
     ADMINDASHBOARD_CODE_URL:
