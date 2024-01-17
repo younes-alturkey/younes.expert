@@ -1,6 +1,6 @@
 import { useAppSelector } from '@/src/app'
-import { BsGithub, BsLinkedin, BsMedium, BsTwitter } from 'react-icons/bs'
 import { EXTERNAL_URLS } from 'config'
+import { BsGithub, BsLinkedin, BsMedium, BsTwitterX } from 'react-icons/bs'
 
 export function Footer() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
@@ -43,7 +43,7 @@ export function Footer() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <BsTwitter size={28} className={styles.socialLinkIcon} />
+                    <BsTwitterX size={28} className={styles.socialLinkIcon} />
                 </a>
                 <a
                     href={EXTERNAL_URLS.YAT_MEDIUM_URL}
