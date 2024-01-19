@@ -1,6 +1,8 @@
 import { useAppSelector } from '@/src/app'
 import { EXTERNAL_URLS } from 'config'
 import { BsGithub, BsLinkedin, BsMedium, BsTwitterX } from 'react-icons/bs'
+import { FaRedditAlien } from 'react-icons/fa'
+import { RiInstagramFill } from 'react-icons/ri'
 
 export function Footer() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
@@ -32,6 +34,16 @@ export function Footer() {
                     <BsLinkedin size={28} className={styles.socialLinkIcon} />
                 </a>
                 <a
+                    href={EXTERNAL_URLS.YAT_INSTAGRAM_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <RiInstagramFill
+                        size={28}
+                        className={styles.socialLinkIcon}
+                    />
+                </a>
+                <a
                     href={EXTERNAL_URLS.YAT_GITHUB_URL}
                     target="_blank"
                     rel="noreferrer"
@@ -44,6 +56,16 @@ export function Footer() {
                     rel="noreferrer"
                 >
                     <BsTwitterX size={28} className={styles.socialLinkIcon} />
+                </a>
+                <a
+                    href={EXTERNAL_URLS.YAT_REDDIT}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaRedditAlien
+                        size={28}
+                        className={styles.socialLinkIcon}
+                    />
                 </a>
                 <a
                     href={EXTERNAL_URLS.YAT_MEDIUM_URL}

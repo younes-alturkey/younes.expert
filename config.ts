@@ -68,6 +68,8 @@ export const EXTERNAL_URLS = {
     YAT_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey',
     YAT_GITHUB_URL: 'https://github.com/younes-alturkey',
     YAT_MEDIUM_URL: 'https://medium.com/@younes-alturkey',
+    YAT_INSTAGRAM_URL: 'https://www.instagram.com/younes_alturkey',
+    YAT_REDDIT: 'https://www.reddit.com/user/younes_alturkey',
     YAT_CODEPEN_URL: 'https://codepen.io/younes-alturkey',
     YAT_BEHANCE_URL: 'https://www.behance.net/younesalturkey',
     YAT_TWITTER_URL: 'https://twitter.com/younes_alturkey',
