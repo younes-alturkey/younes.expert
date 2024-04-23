@@ -129,6 +129,13 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
                     <div className={styles.gridContainer}>
                         <ProductCard
+                            title={t.myFux}
+                            text={t.myFuxText}
+                            code={EXTERNAL_URLS.NELC_URL}
+                            link={EXTERNAL_URLS.NELC_URL}
+                        />
+
+                        <ProductCard
                             title={t.monshaatEci}
                             text={t.monshaatEciText}
                             code={EXTERNAL_URLS.MONSHAAT_ECI_URL}
@@ -232,16 +239,17 @@ export default function HomePage() {
                         />
                         <CompanyCard
                             imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"
-                            img={MEDIA_URLS.BHR_IMG_URL}
-                            link="https://bhr-sa.vercel.app"
-                            text={t.bhr}
-                        />
-                        <CompanyCard
-                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"
                             img={MEDIA_URLS.NUQTAH_URL}
                             link="https://nuqtah.io"
                             text={t.nuqtah}
                         />
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"
+                            img={MEDIA_URLS.BHR_IMG_URL}
+                            link="https://bhr-sa.vercel.app"
+                            text={t.bhr}
+                        />
+
                         <CompanyCard
                             imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
                             img={MEDIA_URLS.SAFCSP_IMG_URL}

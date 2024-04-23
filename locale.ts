@@ -123,6 +123,8 @@ export const en: AppLocale = {
     monshaatEciText: "Monsha'at LMS for Young Entrepreneurs",
     aiLLMs: 'AI and LLMs',
     gcp: 'Google Cloud Platform',
+    myFux: 'My FutureX App',
+    myFuxText: 'National eLearning Center Anroid/iOS App',
 }
 
 export const ar: AppLocale = {
@@ -249,4 +251,6 @@ export const ar: AppLocale = {
     monshaatEciText: 'نظام إدارة التعلم من منشآت لرواد الأعمال الشباب',
     aiLLMs: 'الذكاء الإصطناعي ونماذج لغوية ضخمة',
     gcp: 'منصة جوجل السحابية',
+    myFux: 'ماي فوتشر إكس',
+    myFuxText: 'تطبيق المركز الوطني للتعليم الإلكتروني على الأندرويد والآيفون',
 }

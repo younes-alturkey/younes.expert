@@ -173,4 +173,6 @@ export type AppLocale = {
     monshaatEciText: string
     aiLLMs: string
     gcp: string
+    myFux: string
+    myFuxText: string
 }
