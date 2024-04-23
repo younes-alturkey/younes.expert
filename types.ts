@@ -168,4 +168,9 @@ export type AppLocale = {
     nahdi: string
     mcit: string
     bhr: string
+    fullStackEngineer: string
+    monshaatEci: string
+    monshaatEciText: string
+    aiLLMs: string
+    gcp: string
 }

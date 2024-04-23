@@ -10,6 +10,7 @@ import { TechCard } from '@/src/components/TechCard'
 import { AppLayout } from '@/src/layout'
 import { ARTICLES_URLS, EXTERNAL_URLS, MEDIA_URLS } from 'config'
 import { useRef } from 'react'
+import { AiFillRobot } from 'react-icons/ai'
 import {
     BsArrowDown,
     BsFillPeopleFill,
@@ -37,7 +38,7 @@ export default function HomePage() {
                         />
                     </div>
                     <h2 className={styles.sectionTitle}>
-                        {t.softwareEngineer}
+                        {t.fullStackEngineer}
                     </h2>
 
                     <div
@@ -48,10 +49,6 @@ export default function HomePage() {
                     >
                         <BsArrowDown size={36} />
                     </div>
-                </section>
-
-                <section className={styles.section} ref={overviewSectionRef}>
-                    <p className={styles.sectionBody}>{t.overviewText}</p>
                 </section>
 
                 <section className={styles.section}>
@@ -131,6 +128,13 @@ export default function HomePage() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
                     <div className={styles.gridContainer}>
+                        <ProductCard
+                            title={t.monshaatEci}
+                            text={t.monshaatEciText}
+                            code={EXTERNAL_URLS.MONSHAAT_ECI_URL}
+                            link={EXTERNAL_URLS.MONSHAAT_ECI_URL}
+                        />
+
                         <ProductCard
                             title={t.nuqtahTitle}
                             text={t.nuqtahText}
@@ -221,9 +225,15 @@ export default function HomePage() {
                             text={t.nelc}
                         />
                         <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.NTAIS_IMG_URL}
+                            link="https://www.linkedin.com/company/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/"
+                            text={t.ntis}
+                        />
+                        <CompanyCard
                             imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert mt-8"
                             img={MEDIA_URLS.BHR_IMG_URL}
-                            link="http://bhr.sa"
+                            link="https://bhr-sa.vercel.app"
                             text={t.bhr}
                         />
                         <CompanyCard
@@ -262,6 +272,16 @@ export default function HomePage() {
                             title={t.fullStackWeb}
                             icon={
                                 <BsStack
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
+
+                        <SkillCard
+                            title={t.aiLLMs}
+                            icon={
+                                <AiFillRobot
                                     size={64}
                                     className="text-ored hover:opacity-75"
                                 />
@@ -389,6 +409,7 @@ export default function HomePage() {
                             title={t.dotnet}
                             img={MEDIA_URLS.DOTNET_IMG_URL}
                         />
+                        <TechCard title={t.gcp} img={MEDIA_URLS.GCP_IMG_URL} />
                         <TechCard
                             title={t.azure}
                             img={MEDIA_URLS.AZURE_IMG_URL}

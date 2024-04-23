@@ -20,6 +20,7 @@ export const MEDIA_URLS = {
     CSM_IMG_URL: '/images/csm.png',
     NUQTAH_URL: '/images/nuqtah.webp',
     NAHDI_URL: '/images/nahdi.svg',
+    NTAIS_IMG_URL: '/images/ntais.png',
     MCIT_URL: '/images/mcit.png',
     ACSM_IMG_URL: '/images/acsm.png',
     CSPSM_IMG_URL: '/images/cspsm.png',
@@ -60,6 +61,7 @@ export const MEDIA_URLS = {
     SA_CSD_IMG_URL: '/images/sa-csm.png',
     SAFE_PRACTITIONER_IMG_URL: '/images/safe-practitioner.png',
     SAFE_SM_IMG_URL: '/images/safe-sm.png',
+    GCP_IMG_URL: '/images/gcp.png',
 }
 
 export const EXTERNAL_URLS = {
@@ -90,6 +92,9 @@ export const EXTERNAL_URLS = {
     ADMINDASHBOARD_URL: 'https://ya-admin-dashboard.vercel.app',
     ADMINDASHBOARD_CODE_URL:
         'https://github.com/younes-alturkey/admin-dashboard',
+    MONSHAAT_ECI_URL: 'https://eci.monshaat.gov.sa',
+    NTAIS_URL:
+        'https://www.linkedin.com/company/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/',
 }
 
 export const ARTICLES_URLS = {

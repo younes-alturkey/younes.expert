@@ -35,7 +35,7 @@ export const en: AppLocale = {
     companiesIWorkedFor: 'Companies I Worked For',
     certified: 'Certified',
     technicalSpecialties: 'My Tech Specs',
-    fullStackWeb: 'Full-Stack Engineering',
+    fullStackWeb: 'Fullstack Engineering',
     fullStackMobile: 'Mobile Engineering',
     backgroundDev: 'Backend Engineering',
     uiDev: 'Frontend Engineering',
@@ -118,6 +118,11 @@ export const en: AppLocale = {
     nahdi: 'Nahdi Medical Company',
     mcit: 'Ministry of Communications and IT',
     bhr: 'Bhr Solutions',
+    fullStackEngineer: 'Fullstack Software Engineer',
+    monshaatEci: "Monsha'at ECI — LMS",
+    monshaatEciText: "Monsha'at LMS for Young Entrepreneurs",
+    aiLLMs: 'AI and LLMs',
+    gcp: 'Google Cloud Platform',
 }
 
 export const ar: AppLocale = {
@@ -239,4 +244,9 @@ export const ar: AppLocale = {
     nahdi: 'شركة النهدي الطبية',
     mcit: 'وزارة الاتصالات وتقنية المعلومات',
     bhr: 'بحر الحلول',
+    fullStackEngineer: 'مهندس تطوير كامل',
+    monshaatEci: 'منشآت  — نظام إدارة التعلم',
+    monshaatEciText: 'نظام إدارة التعلم من منشآت لرواد الأعمال الشباب',
+    aiLLMs: 'الذكاء الإصطناعي ونماذج لغوية ضخمة',
+    gcp: 'منصة جوجل السحابية',
 }
