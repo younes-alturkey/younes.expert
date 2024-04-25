@@ -96,6 +96,8 @@ export const EXTERNAL_URLS = {
     NTAIS_URL:
         'https://www.linkedin.com/company/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/',
     NELC_URL: 'https://nelc.gov.sa/en',
+    MYFUX_URL: 'https://www.younes.ai/images/my_futurex_app_demo.gif',
+    EXPRO_ADMIN_URL: 'https://www.younes.ai/images/expro-admin-app-demo.gif',
 }
 
 export const ARTICLES_URLS = {

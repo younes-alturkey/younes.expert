@@ -175,4 +175,6 @@ export type AppLocale = {
     gcp: string
     myFux: string
     myFuxText: string
+    exproAdmin: string
+    exproAdminText: string
 }

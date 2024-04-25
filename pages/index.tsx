@@ -131,7 +131,7 @@ export default function HomePage() {
                         <ProductCard
                             title={t.myFux}
                             text={t.myFuxText}
-                            code={EXTERNAL_URLS.NELC_URL}
+                            code={EXTERNAL_URLS.MYFUX_URL}
                             link={EXTERNAL_URLS.NELC_URL}
                         />
 
@@ -140,6 +140,13 @@ export default function HomePage() {
                             text={t.monshaatEciText}
                             code={EXTERNAL_URLS.MONSHAAT_ECI_URL}
                             link={EXTERNAL_URLS.MONSHAAT_ECI_URL}
+                        />
+
+                        <ProductCard
+                            title={t.exproAdmin}
+                            text={t.exproAdminText}
+                            code={EXTERNAL_URLS.EXPRO_ADMIN_URL}
+                            link={EXTERNAL_URLS.NELC_URL}
                         />
 
                         <ProductCard

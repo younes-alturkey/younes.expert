@@ -125,6 +125,8 @@ export const en: AppLocale = {
     gcp: 'Google Cloud Platform',
     myFux: 'My FutureX App',
     myFuxText: 'National eLearning Center Anroid/iOS App',
+    exproAdmin: 'Nomination System',
+    exproAdminText: 'Nomination system with custom workflows',
 }
 
 export const ar: AppLocale = {
@@ -253,4 +255,6 @@ export const ar: AppLocale = {
     gcp: 'منصة جوجل السحابية',
     myFux: 'ماي فوتشر إكس',
     myFuxText: 'تطبيق المركز الوطني للتعليم الإلكتروني على الأندرويد والآيفون',
+    exproAdmin: 'نظام الترشيحات',
+    exproAdminText: 'نظام ترشيحات مع سير العمل المخصصة',
 }
