@@ -113,7 +113,7 @@ export const en: AppLocale = {
     productDevelopment: 'Product Development',
     nelc: 'National eLearning Center',
     ntis: 'National Telecomms and Info Sec',
-    nuqtah: 'NuqtahNFTs',
+    nuqtah: 'NuqtahNFT',
     safcsp: 'Federation for Programming',
     nahdi: 'Nahdi Medical Company',
     mcit: 'Ministry of Communications and IT',
