@@ -97,7 +97,7 @@ export const en: AppLocale = {
     js: 'JavaScript',
     becomingWorldClass:
         'Becoming World Class is Simpler Than Landing Entry Level Jobs',
-    fullstackDotNet: 'Full-stack .NET Developer',
+    fullstackDotNet: 'Fullstack .NET Developer',
     bestCode: '1st Best Code — Contest',
     recommendationLetter: 'Recommendation Letter',
     csd: 'Certified Solidity Developer',
