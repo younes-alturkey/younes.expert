@@ -1,5 +1,5 @@
-import { FaLinkedinIn } from 'react-icons/fa'
 import { BsMedium } from 'react-icons/bs'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 export function ArticleLinkCard(props: any) {
     const { img, text, medium, linkedin } = props
@@ -13,7 +13,7 @@ export function ArticleLinkCard(props: any) {
                 height={44}
                 className="hover:opacity-75"
             />
-            <p className="w-full text-justify">{text}</p>
+            <p className="w-full text-center lg:text-justify">{text}</p>
             <div className="flex justify-between items-center gap-8 text-ored">
                 <a href={linkedin} target="_blank" rel="noreferrer">
                     <FaLinkedinIn
