@@ -52,6 +52,18 @@ export default function HomePage() {
                 </section>
 
                 <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>{t.inTheMedia}</h2>
+                    <iframe
+                        className="rounded-xl shadow-md w-full h-[500px] md:h-[600px] lg:h-[790px]"
+                        src="https://www.youtube.com/embed/q9jQ3MBHzQE"
+                        title="برنامج دربك خضر — قصة يونس التركي"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                    />
+                </section>
+
+                <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>
                         {t.certsAndAchieves}
                     </h2>

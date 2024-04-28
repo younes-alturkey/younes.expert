@@ -127,6 +127,7 @@ export const en: AppLocale = {
     myFuxText: 'National eLearning Center Anroid/iOS App',
     exproAdmin: 'Nomination System',
     exproAdminText: 'Nomination system with custom workflows',
+    inTheMedia: 'In The Media',
 }
 
 export const ar: AppLocale = {
@@ -257,4 +258,5 @@ export const ar: AppLocale = {
     myFuxText: 'تطبيق المركز الوطني للتعليم الإلكتروني على الأندرويد والآيفون',
     exproAdmin: 'نظام الترشيحات',
     exproAdminText: 'نظام ترشيحات مع سير العمل المخصصة',
+    inTheMedia: 'في الإعلام',
 }

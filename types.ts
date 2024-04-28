@@ -177,4 +177,5 @@ export type AppLocale = {
     myFuxText: string
     exproAdmin: string
     exproAdminText: string
+    inTheMedia: string
 }
