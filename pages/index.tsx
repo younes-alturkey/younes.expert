@@ -25,8 +25,9 @@ import { SiHiveBlockchain } from 'react-icons/si'
 export default function HomePage() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
     const overviewSectionRef = useRef<HTMLDivElement | null>(null)
+
     return (
-        <AppLayout title={t.younesAlturkey}>
+        <AppLayout>
             <div className={styles.container}>
                 <section className={styles.section}>
                     <div className="rounded-full shadow-2xl hover:opacity-75 mb-8 w-80 h-80 lg:w-[500px] lg:h-[500px] bg-black overflow-hidden">

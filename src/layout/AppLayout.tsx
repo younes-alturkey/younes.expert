@@ -1,22 +1,23 @@
-import 'react-toastify/dist/ReactToastify.css'
-import { useEffect } from 'react'
-import { ToastContainer } from 'react-toastify'
-import { initApp } from '@/src/features'
-import { WhatsAppLink, EmailLink, PhoneLink } from '@/src/components'
 import { useAppDispatch, useAppSelector } from '@/src/app'
-import { PageHead } from 'types'
-import { Header, Main, Footer } from '@/src/layout'
+import { EmailLink, PhoneLink, WhatsAppLink } from '@/src/components'
+import { initApp } from '@/src/features'
+import { Footer, Header, Main } from '@/src/layout'
 import Head from 'next/head'
-import ScrollToTop from 'react-scroll-to-top'
+import { useEffect } from 'react'
 import { BsArrowUpShort } from 'react-icons/bs'
+import ScrollToTop from 'react-scroll-to-top'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import { PageHead } from 'types'
 
 export function AppLayout(props: PageHead) {
     const { settings, appInitialized } = useAppSelector(state => state.ui)
+    const { t } = useAppSelector(state => state.ui.settings.locale)
     const { locale, darkMode } = settings
     const { lang } = locale
     const isAr = lang === 'ar' ? true : false
 
-    const { title = '', keywords = '', description = '', children } = props
+    const { children } = props
 
     const dispatch = useAppDispatch()
 
@@ -28,27 +29,7 @@ export function AppLayout(props: PageHead) {
     return (
         <div className="relative flex flex-col justify-center items-center">
             <Head>
-                <meta name="theme-color" content="#F12F40" />
-                <meta name="author" content="Younes Alturkey" />
-                <meta property="og:title" content="Younes Alturkey" />
-                <meta
-                    property="og:description"
-                    content="Learn about Younes's work, products, articles, skills, and download latest cv"
-                />
-                <meta
-                    property="og:image"
-                    content="/images/og-card-1200x630.png"
-                />
-                <meta property="og:url" content="https://younesalturkey.sa" />
-                <meta
-                    name="twitter:card"
-                    content="/images/twitter-card-600x314.png"
-                />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content={lang} />
-                <meta name="description" content={description} />
-                <meta name="keywords" content={keywords} />
-                <title>{title}</title>
+                <title>{t.younesAlturkey}</title>
             </Head>
 
             <ScrollToTop
