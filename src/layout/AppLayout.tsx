@@ -12,12 +12,11 @@ import { PageHead } from 'types'
 
 export function AppLayout(props: PageHead) {
     const { settings, appInitialized } = useAppSelector(state => state.ui)
-    const { t } = useAppSelector(state => state.ui.settings.locale)
     const { locale, darkMode } = settings
     const { lang } = locale
     const isAr = lang === 'ar' ? true : false
 
-    const { children } = props
+    const { title = 'Younes Alturkey', children } = props
 
     const dispatch = useAppDispatch()
 
@@ -29,7 +28,7 @@ export function AppLayout(props: PageHead) {
     return (
         <div className="relative flex flex-col justify-center items-center">
             <Head>
-                <title>{t.younesAlturkey}</title>
+                <title>{title}</title>
             </Head>
 
             <ScrollToTop

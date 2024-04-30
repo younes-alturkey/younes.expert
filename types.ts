@@ -32,6 +32,7 @@ export enum REST {
 }
 
 export type PageHead = {
+    title?: string
     children?: JSX.Element | JSX.Element[]
 }
 
