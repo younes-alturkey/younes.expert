@@ -118,7 +118,7 @@ export const en: AppLocale = {
     nahdi: 'Nahdi Medical Company',
     mcit: 'Ministry of Communications and IT',
     bhr: 'Bhr Solutions',
-    fullStackEngineer: 'Fullstack Software Engineer',
+    fullStackEngineer: 'Full-stack Software Engineer',
     monshaatEci: "Monsha'at ECI — LMS",
     monshaatEciText: "Monsha'at LMS for Young Entrepreneurs",
     aiLLMs: 'AI and LLMs',
