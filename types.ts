@@ -176,4 +176,8 @@ export type AppLocale = {
     exproAdmin: string
     exproAdminText: string
     inTheMedia: string
+    sdcTitle: string
+    sdcText: string
+    gitTuwaiqTitle: string
+    gitTuwaiqText: string
 }

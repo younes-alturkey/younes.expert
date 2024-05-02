@@ -170,17 +170,24 @@ export default function HomePage() {
                         />
 
                         <ProductCard
+                            title={t.sdcTitle}
+                            text={t.sdcText}
+                            code={EXTERNAL_URLS.SDC_URL}
+                            link={EXTERNAL_URLS.SDC_URL}
+                        />
+
+                        <ProductCard
+                            title={t.soudahATSTitle}
+                            text={t.soudahATSText}
+                            code={EXTERNAL_URLS.SOUDAHATS_GITHUB_URL}
+                            link={EXTERNAL_URLS.SOUDAHATS_URL}
+                        />
+
+                        <ProductCard
                             title={t.spfTitle}
                             text={t.spfText}
                             code={EXTERNAL_URLS.SPF_URL}
                             link={EXTERNAL_URLS.SPF_URL}
-                        />
-
-                        <ProductCard
-                            title={t.adminDashboardTitle}
-                            text={t.adminDashboardText}
-                            code={EXTERNAL_URLS.ADMINDASHBOARD_CODE_URL}
-                            link={EXTERNAL_URLS.ADMINDASHBOARD_URL}
                         />
 
                         <ProductCard
@@ -191,10 +198,10 @@ export default function HomePage() {
                         />
 
                         <ProductCard
-                            title={t.spaceShooterTitle}
-                            text={t.spaceShooterText}
-                            code={EXTERNAL_URLS.SPACESHOOTER_GITHUB_URL}
-                            link={EXTERNAL_URLS.SPACESHOOTER_URL}
+                            title={t.gitTuwaiqTitle}
+                            text={t.gitTuwaiqText}
+                            code={EXTERNAL_URLS.GITTUWAIQ_CODE_URL}
+                            link={EXTERNAL_URLS.GITTUWAIQ_URL}
                         />
 
                         <ProductCard
@@ -209,11 +216,19 @@ export default function HomePage() {
                             code={EXTERNAL_URLS.NAHDIMOBILE_GITHUB_URL}
                             link={EXTERNAL_URLS.NAHDIMOBILE_URL}
                         />
+
                         <ProductCard
-                            title={t.soudahATSTitle}
-                            text={t.soudahATSText}
-                            code={EXTERNAL_URLS.SOUDAHATS_GITHUB_URL}
-                            link={EXTERNAL_URLS.SOUDAHATS_URL}
+                            title={t.spaceShooterTitle}
+                            text={t.spaceShooterText}
+                            code={EXTERNAL_URLS.SPACESHOOTER_GITHUB_URL}
+                            link={EXTERNAL_URLS.SPACESHOOTER_URL}
+                        />
+
+                        <ProductCard
+                            title={t.adminDashboardTitle}
+                            text={t.adminDashboardText}
+                            code={EXTERNAL_URLS.ADMINDASHBOARD_CODE_URL}
+                            link={EXTERNAL_URLS.ADMINDASHBOARD_URL}
                         />
                     </div>
                 </section>

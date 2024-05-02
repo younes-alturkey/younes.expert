@@ -88,7 +88,7 @@ export const EXTERNAL_URLS = {
         'https://github.com/younes-alturkey/soudah-scholarship-ats',
     SOUDAHATS_URL: 'https://soudah-ats.netlify.app',
     NUQTAH_URL: 'https://nuqtah.io',
-    SPF_URL: 'https://shaheenspf.sa',
+    SPF_URL: 'https://shaheenspf.sa/en',
     ADMINDASHBOARD_URL: 'https://ya-admin-dashboard.vercel.app',
     ADMINDASHBOARD_CODE_URL:
         'https://github.com/younes-alturkey/admin-dashboard',
@@ -98,6 +98,9 @@ export const EXTERNAL_URLS = {
     NELC_URL: 'https://nelc.gov.sa/en',
     MYFUX_URL: 'https://www.younes.ai/images/my_futurex_app_demo.gif',
     EXPRO_ADMIN_URL: 'https://www.younes.ai/images/expro-admin-app-demo.gif',
+    SDC_URL: 'https://soudah.sa/en',
+    GITTUWAIQ_URL: 'https://gittuwaiqhub.netlify.app',
+    GITTUWAIQ_CODE_URL: 'https://github.com/younes-alturkey/git-tuwaiq',
 }
 
 export const ARTICLES_URLS = {
