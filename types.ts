@@ -180,4 +180,6 @@ export type AppLocale = {
     sdcText: string
     gitTuwaiqTitle: string
     gitTuwaiqText: string
+    farabiTitle: string
+    farabiText: string
 }

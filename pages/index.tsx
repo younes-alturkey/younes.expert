@@ -142,6 +142,13 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
                     <div className={styles.gridContainer}>
                         <ProductCard
+                            title={t.farabiTitle}
+                            text={t.farabiText}
+                            code={EXTERNAL_URLS.FARABI_URL}
+                            link={EXTERNAL_URLS.FARABI_URL}
+                        />
+
+                        <ProductCard
                             title={t.myFux}
                             text={t.myFuxText}
                             code={EXTERNAL_URLS.NELC_URL}

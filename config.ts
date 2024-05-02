@@ -101,6 +101,8 @@ export const EXTERNAL_URLS = {
     SDC_URL: 'https://soudah.sa/en',
     GITTUWAIQ_URL: 'https://gittuwaiqhub.netlify.app',
     GITTUWAIQ_CODE_URL: 'https://github.com/younes-alturkey/git-tuwaiq',
+    FARABI_URL: 'https://github.com/younes-alturkey/farabi',
+    FARABI_CODE_URL: 'https://github.com/younes-alturkey/farabi',
 }
 
 export const ARTICLES_URLS = {
