@@ -182,4 +182,5 @@ export type AppLocale = {
     gitTuwaiqText: string
     farabiTitle: string
     farabiText: string
+    nextgenHackathon: string
 }

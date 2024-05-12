@@ -27,6 +27,8 @@ export const MEDIA_URLS = {
     NELC_IMG_URL: '/images/nelc.svg',
     YAT_IMG_URL: '/images/logo.png',
     KAU_IMG_URL: '/images/kau.png',
+    MISK_IMG_URL: '/images/nextgen-hackathon.png',
+    NEXTGEN_CERT_URL: '/documents/younes-alturkey-nextgen-hackathon.pdf',
     SAFCSP_IMG_URL: '/images/safcsp.png',
     SCE_IMG_URL: '/images/sce.png',
     TS_IMG_URL: '/images/ts.png',

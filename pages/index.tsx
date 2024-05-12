@@ -135,6 +135,12 @@ export default function HomePage() {
                             document={MEDIA_URLS.ASIF_LETTER_PDF_URL}
                             text={t.recommendationLetter}
                         />
+                        <CertCard
+                            alt="NEXTGEN_HACKATHON"
+                            img={MEDIA_URLS.MISK_IMG_URL}
+                            document={MEDIA_URLS.NEXTGEN_CERT_URL}
+                            text={t.nextgenHackathon}
+                        />
                     </div>
                 </section>
 

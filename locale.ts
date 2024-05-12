@@ -134,6 +134,7 @@ export const en: AppLocale = {
     gitTuwaiqText: 'Git server built for Tuwaiq Academy',
     farabiTitle: 'ChatGPT Extension',
     farabiText: 'Browser extension for ChatGPT',
+    nextgenHackathon: 'NextGen Hackathon',
 }
 
 export const ar: AppLocale = {
@@ -271,4 +272,5 @@ export const ar: AppLocale = {
     gitTuwaiqText: 'خادم جيت مصمم لأكاديمية طويق',
     farabiTitle: 'إضافة شات جي بي تي',
     farabiText: 'إضافة متصفح لـ شات جي بي تي',
+    nextgenHackathon: 'هاكاثون نكست جين',
 }
