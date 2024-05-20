@@ -171,8 +171,8 @@ export default function HomePage() {
                         <ProductCard
                             title={t.exproAdmin}
                             text={t.exproAdminText}
-                            code={EXTERNAL_URLS.NELC_URL}
-                            link={EXTERNAL_URLS.NELC_URL}
+                            code={EXTERNAL_URLS.EXPRO_URL}
+                            link={EXTERNAL_URLS.EXPRO_URL}
                         />
 
                         <ProductCard

@@ -105,6 +105,7 @@ export const EXTERNAL_URLS = {
     GITTUWAIQ_CODE_URL: 'https://github.com/younes-alturkey/git-tuwaiq',
     FARABI_URL: 'https://github.com/younes-alturkey/farabi',
     FARABI_CODE_URL: 'https://github.com/younes-alturkey/farabi',
+    EXPRO_URL: 'https://expro-admin.futurex.sa',
 }
 
 export const ARTICLES_URLS = {
