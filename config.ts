@@ -67,7 +67,7 @@ export const MEDIA_URLS = {
 }
 
 export const EXTERNAL_URLS = {
-    YAT_EMAIL_URL: 'mailto:hi@younes.ai',
+    YAT_EMAIL_URL: 'mailto:me@younes.expert',
     YAT_PHONENUMBER_URL: 'tel:+966538654514',
     YAT_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey',
     YAT_GITHUB_URL: 'https://github.com/younes-alturkey',
