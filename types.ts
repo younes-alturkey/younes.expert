@@ -183,4 +183,10 @@ export type AppLocale = {
     farabiTitle: string
     farabiText: string
     nextgenHackathon: string
+    flymizarTitle: string
+    flymizarText: string
+    alienvsnirvanaTitle: string
+    alienvsnirvanaText: string
+    videoGames: string
+    videoGamesText: string
 }

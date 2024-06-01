@@ -106,6 +106,11 @@ export const EXTERNAL_URLS = {
     FARABI_URL: 'https://github.com/younes-alturkey/farabi',
     FARABI_CODE_URL: 'https://github.com/younes-alturkey/farabi',
     EXPRO_URL: 'https://expro-admin.futurex.sa',
+    ALIENVSNARVA_GITHUB_URL:
+        'https://github.com/younes-alturkey/alien-vs-narva',
+    ALIENVSNARVA_URL: 'https://alien-vs-narva.netlify.app',
+    FLYMIZAR_URL: 'https://flymizar.com/en',
+    VIDEOGAMES_GITHUB_URL: 'https://github.com/younes-alturkey/my-videogames',
 }
 
 export const ARTICLES_URLS = {

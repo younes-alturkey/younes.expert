@@ -135,6 +135,12 @@ export const en: AppLocale = {
     farabiTitle: 'ChatGPT Extension',
     farabiText: 'Browser extension for ChatGPT',
     nextgenHackathon: 'NextGen Hackathon',
+    flymizarTitle: 'FlyMizar',
+    flymizarText: 'Flymizar company website',
+    alienvsnirvanaTitle: 'Alien vs Narva',
+    alienvsnirvanaText: '2D HTML canvas strategy game',
+    videoGames: 'Video Games',
+    videoGamesText: 'Some video games I made',
 }
 
 export const ar: AppLocale = {
@@ -273,4 +279,10 @@ export const ar: AppLocale = {
     farabiTitle: 'إضافة شات جي بي تي',
     farabiText: 'إضافة متصفح لـ شات جي بي تي',
     nextgenHackathon: 'هاكاثون نكست جين',
+    flymizarTitle: 'فلاي ميزار',
+    flymizarText: 'موقع شركة فلاي ميزار',
+    alienvsnirvanaTitle: 'الفضائي ضد النرفانا',
+    alienvsnirvanaText: 'لعبة استراتيجية على المتصفح',
+    videoGames: 'ألعاب الفيديو',
+    videoGamesText: 'بعض ألعاب الفيديو التي قمت بتطويرها',
 }

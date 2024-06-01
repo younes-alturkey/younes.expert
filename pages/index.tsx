@@ -204,6 +204,13 @@ export default function HomePage() {
                         />
 
                         <ProductCard
+                            title={t.flymizarTitle}
+                            text={t.flymizarText}
+                            code={EXTERNAL_URLS.FLYMIZAR_URL}
+                            link={EXTERNAL_URLS.FLYMIZAR_URL}
+                        />
+
+                        <ProductCard
                             title={t.bitchunkTitle}
                             text={t.bitchunkText}
                             code={EXTERNAL_URLS.BITCHUNK_GITHUB_URL}
@@ -235,6 +242,20 @@ export default function HomePage() {
                             text={t.spaceShooterText}
                             code={EXTERNAL_URLS.SPACESHOOTER_GITHUB_URL}
                             link={EXTERNAL_URLS.SPACESHOOTER_URL}
+                        />
+
+                        <ProductCard
+                            title={t.alienvsnirvanaTitle}
+                            text={t.alienvsnirvanaText}
+                            code={EXTERNAL_URLS.ALIENVSNARVA_GITHUB_URL}
+                            link={EXTERNAL_URLS.ALIENVSNARVA_URL}
+                        />
+
+                        <ProductCard
+                            title={t.videoGames}
+                            text={t.videoGamesText}
+                            code={EXTERNAL_URLS.VIDEOGAMES_GITHUB_URL}
+                            link={EXTERNAL_URLS.VIDEOGAMES_GITHUB_URL}
                         />
 
                         <ProductCard
