@@ -124,7 +124,7 @@ export const en: AppLocale = {
     aiLLMs: 'AI and LLMs',
     gcp: 'Google Cloud Platform',
     myFux: 'My FutureX App',
-    myFuxText: 'National eLearning Center Anroid/iOS App',
+    myFuxText: 'National eLearning Center Android/iOS App',
     exproAdmin: 'Nomination System',
     exproAdminText: 'Nomination system with custom workflows',
     inTheMedia: 'In The Media',
