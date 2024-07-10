@@ -141,6 +141,8 @@ export const en: AppLocale = {
     alienvsnirvanaText: '2D HTML canvas strategy game',
     videoGames: 'Video Games',
     videoGamesText: 'Some video games I made',
+    safhaTitle: 'Safha',
+    safhaDescription: 'AI-powered website builder',
 }
 
 export const ar: AppLocale = {
@@ -285,4 +287,6 @@ export const ar: AppLocale = {
     alienvsnirvanaText: 'لعبة استراتيجية على المتصفح',
     videoGames: 'ألعاب الفيديو',
     videoGamesText: 'بعض ألعاب الفيديو التي قمت بتطويرها',
+    safhaTitle: 'صفحة',
+    safhaDescription: 'منشيء المواقع بالذكاء الإصطناعي',
 }

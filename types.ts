@@ -189,4 +189,6 @@ export type AppLocale = {
     alienvsnirvanaText: string
     videoGames: string
     videoGamesText: string
+    safhaTitle: string
+    safhaDescription: string
 }

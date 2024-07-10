@@ -111,6 +111,8 @@ export const EXTERNAL_URLS = {
     ALIENVSNARVA_URL: 'https://alien-vs-narva.netlify.app',
     FLYMIZAR_URL: 'https://flymizar.com/en',
     VIDEOGAMES_GITHUB_URL: 'https://github.com/younes-alturkey/my-videogames',
+    SAFHA_URL: 'https://safha-frontend.vercel.app',
+    SAFHA_CODE_URL: 'https://github.com/younes-alturkey/safha-frontend',
 }
 
 export const ARTICLES_URLS = {
