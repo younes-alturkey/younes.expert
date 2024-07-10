@@ -3,6 +3,7 @@ import { EXTERNAL_URLS } from 'config'
 import { BsGithub, BsLinkedin, BsMedium, BsTwitterX } from 'react-icons/bs'
 import { FaRedditAlien } from 'react-icons/fa'
 import { RiInstagramFill } from 'react-icons/ri'
+import { SiLeetcode } from 'react-icons/si'
 
 export function Footer() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
@@ -73,6 +74,13 @@ export function Footer() {
                     rel="noreferrer"
                 >
                     <BsMedium size={28} className={styles.socialLinkIcon} />
+                </a>
+                <a
+                    href={EXTERNAL_URLS.YAT_LEETCODE_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <SiLeetcode size={28} className={styles.socialLinkIcon} />
                 </a>
             </div>
         </footer>

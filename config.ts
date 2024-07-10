@@ -67,6 +67,7 @@ export const MEDIA_URLS = {
 }
 
 export const EXTERNAL_URLS = {
+    YAT_LEETCODE_URL: 'https://leetcode.com/u/younes-alturkey',
     YAT_EMAIL_URL: 'mailto:me@younes.expert',
     YAT_PHONENUMBER_URL: 'tel:+966538654514',
     YAT_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey',
