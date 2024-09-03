@@ -2,6 +2,7 @@ import { useAppSelector } from '@/src/app'
 import { EXTERNAL_URLS } from 'config'
 import { BsGithub, BsLinkedin, BsMedium, BsTwitterX } from 'react-icons/bs'
 import { FaRedditAlien } from 'react-icons/fa'
+import { FaUpwork } from 'react-icons/fa6'
 import { RiInstagramFill } from 'react-icons/ri'
 import { SiLeetcode } from 'react-icons/si'
 
@@ -81,6 +82,13 @@ export function Footer() {
                     rel="noreferrer"
                 >
                     <SiLeetcode size={28} className={styles.socialLinkIcon} />
+                </a>
+                <a
+                    href={EXTERNAL_URLS.YAT_UPWORK_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaUpwork size={28} className={styles.socialLinkIcon} />
                 </a>
             </div>
         </footer>
