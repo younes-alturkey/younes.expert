@@ -21,6 +21,7 @@ import { FaCode, FaDatabase } from 'react-icons/fa'
 import { GiPencilBrush } from 'react-icons/gi'
 import { HiFire, HiOutlineMail } from 'react-icons/hi'
 import { SiHiveBlockchain } from 'react-icons/si'
+import { TwitterTweetEmbed } from 'react-twitter-embed'
 
 export default function HomePage() {
     const { t } = useAppSelector(state => state.ui.settings.locale)
@@ -62,6 +63,24 @@ export default function HomePage() {
                         referrerPolicy="strict-origin-when-cross-origin"
                         allowFullScreen
                     />
+                </section>
+
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>{t.xPosts}</h2>
+                    <div className={styles.xContainer}>
+                        <TwitterTweetEmbed
+                            placeholder={t.xIsLoading}
+                            tweetId="1833953407536672792"
+                        />
+                        <TwitterTweetEmbed
+                            placeholder={t.xIsLoading}
+                            tweetId="1782563033388360029"
+                        />
+                        <TwitterTweetEmbed
+                            placeholder={t.xIsLoading}
+                            tweetId="1341387093268975616"
+                        />
+                    </div>
                 </section>
 
                 <section className={styles.section}>
@@ -560,6 +579,8 @@ const styles = {
     section: 'w-full flex flex-col gap-6 justify-center items-center',
     gridContainer:
         'w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-3',
+    xContainer:
+        'w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center',
     cardColContainer: 'w-full flex flex-col justify-center items-center gap-12',
     sectionTitle: 'text-2xl xl:text-5xl font-bold mb-8',
     sectionBodyCentered: 'leading-loose text-lg lg:text-2xl',

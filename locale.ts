@@ -143,6 +143,8 @@ export const en: AppLocale = {
     videoGamesText: 'Some video games I made',
     safhaTitle: 'Safha',
     safhaDescription: 'AI-powered website builder',
+    xPosts: 'X Platform Posts',
+    xIsLoading: "Loading X's post",
 }
 
 export const ar: AppLocale = {
@@ -289,4 +291,6 @@ export const ar: AppLocale = {
     videoGamesText: 'بعض ألعاب الفيديو التي قمت بتطويرها',
     safhaTitle: 'صفحة',
     safhaDescription: 'منشيء المواقع بالذكاء الإصطناعي',
+    xPosts: 'منشورات منصة X',
+    xIsLoading: 'جاري التحميل',
 }

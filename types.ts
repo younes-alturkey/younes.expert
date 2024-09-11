@@ -191,4 +191,6 @@ export type AppLocale = {
     videoGamesText: string
     safhaTitle: string
     safhaDescription: string
+    xPosts: string
+    xIsLoading: string
 }
