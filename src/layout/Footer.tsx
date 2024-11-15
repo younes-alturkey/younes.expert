@@ -1,9 +1,6 @@
 import { useAppSelector } from '@/src/app'
 import { EXTERNAL_URLS } from 'config'
-import { BsGithub, BsLinkedin, BsMedium, BsTwitterX } from 'react-icons/bs'
-import { FaRedditAlien } from 'react-icons/fa'
-import { FaUpwork } from 'react-icons/fa6'
-import { RiInstagramFill } from 'react-icons/ri'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { SiLeetcode } from 'react-icons/si'
 
 export function Footer() {
@@ -35,16 +32,7 @@ export function Footer() {
                 >
                     <BsLinkedin size={28} className={styles.socialLinkIcon} />
                 </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_INSTAGRAM_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <RiInstagramFill
-                        size={28}
-                        className={styles.socialLinkIcon}
-                    />
-                </a>
+
                 <a
                     href={EXTERNAL_URLS.YAT_GITHUB_URL}
                     target="_blank"
@@ -52,43 +40,13 @@ export function Footer() {
                 >
                     <BsGithub size={28} className={styles.socialLinkIcon} />
                 </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_TWITTER_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <BsTwitterX size={28} className={styles.socialLinkIcon} />
-                </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_REDDIT}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FaRedditAlien
-                        size={28}
-                        className={styles.socialLinkIcon}
-                    />
-                </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_MEDIUM_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <BsMedium size={28} className={styles.socialLinkIcon} />
-                </a>
+
                 <a
                     href={EXTERNAL_URLS.YAT_LEETCODE_URL}
                     target="_blank"
                     rel="noreferrer"
                 >
                     <SiLeetcode size={28} className={styles.socialLinkIcon} />
-                </a>
-                <a
-                    href={EXTERNAL_URLS.YAT_UPWORK_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FaUpwork size={28} className={styles.socialLinkIcon} />
                 </a>
             </div>
         </footer>

@@ -72,14 +72,6 @@ export const EXTERNAL_URLS = {
     YAT_PHONENUMBER_URL: 'tel:+966538654514',
     YAT_LINKEDIN_URL: 'https://www.linkedin.com/in/younes-alturkey',
     YAT_GITHUB_URL: 'https://github.com/younes-alturkey',
-    YAT_MEDIUM_URL: 'https://medium.com/@younes-alturkey',
-    YAT_UPWORK_URL: 'https://www.upwork.com/freelancers/younesalturkey',
-    YAT_INSTAGRAM_URL: 'https://www.instagram.com/younes_alturkey',
-    YAT_REDDIT: 'https://www.reddit.com/user/younes_alturkey',
-    YAT_CODEPEN_URL: 'https://codepen.io/younes-alturkey',
-    YAT_BEHANCE_URL: 'https://www.behance.net/younesalturkey',
-    YAT_TWITTER_URL: 'https://twitter.com/younes_alturkey',
-    YAT_REDDIT_URL: 'https://www.reddit.com/user/younes_alturkey',
     BITCHUNK_GITHUB_URL: 'https://github.com/younes-alturkey/bitchunk',
     BITCHUNK_URL: 'https://bit-chunk.netlify.app',
     SPACESHOOTER_GITHUB_URL: 'https://github.com/younes-alturkey/spaceshooter',
@@ -100,8 +92,9 @@ export const EXTERNAL_URLS = {
     NTAIS_URL:
         'https://www.linkedin.com/company/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/',
     NELC_URL: 'https://nelc.gov.sa/en',
-    MYFUX_URL: 'https://www.younes.ai/images/my_futurex_app_demo.gif',
-    EXPRO_ADMIN_URL: 'https://www.younes.ai/images/expro-admin-app-demo.gif',
+    MYFUX_URL: 'https://www.younes.expert/images/my_futurex_app_demo.gif',
+    EXPRO_ADMIN_URL:
+        'https://www.younes.expert/images/expro-admin-app-demo.gif',
     SDC_URL: 'https://soudah.sa/en',
     GITTUWAIQ_URL: 'https://gittuwaiqhub.netlify.app',
     GITTUWAIQ_CODE_URL: 'https://github.com/younes-alturkey/git-tuwaiq',
@@ -118,8 +111,6 @@ export const EXTERNAL_URLS = {
 }
 
 export const ARTICLES_URLS = {
-    LAWSOFUX10_MEDIUM_URL:
-        'https://medium.com/@younes-alturkey/10-laws-for-effective-user-experince-74aae39e2abf',
     LAWSOFUX10_LINKEDIN_URL:
         'https://www.linkedin.com/pulse/10-laws-effective-user-experince-younes-alturkey',
     BECOMINGWORLDCLASS_LINKEDIN_URL:

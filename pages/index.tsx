@@ -309,7 +309,7 @@ export default function HomePage() {
                         <ArticleLinkCard
                             img={MEDIA_URLS.YAT_IMG_URL}
                             text={t.lawsOfUX10}
-                            medium={ARTICLES_URLS.LAWSOFUX10_MEDIUM_URL}
+                            medium={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
                             linkedin={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
                         />
                     </div>
