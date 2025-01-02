@@ -64,6 +64,10 @@ export const MEDIA_URLS = {
     SAFE_PRACTITIONER_IMG_URL: '/images/safe-practitioner.png',
     SAFE_SM_IMG_URL: '/images/safe-sm.png',
     GCP_IMG_URL: '/images/gcp.png',
+    SALLA_IMG_URL: '/images/salla-logo.png',
+    VUE_IMG_URL: '/images/vuejs-logo.png',
+    REDIS_IMG_URL: '/images/redis-logo.png',
+    PYTHON_IMG_URL: '/images/python-logo.png',
 }
 
 export const EXTERNAL_URLS = {
@@ -92,7 +96,9 @@ export const EXTERNAL_URLS = {
     NTAIS_URL:
         'https://www.linkedin.com/company/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/',
     NELC_URL: 'https://nelc.gov.sa/en',
-    MYFUX_URL: 'https://www.younes.expert/images/my_futurex_app_demo.gif',
+    FUX_URL: 'https://futurex.sa',
+    MYFUX_URL:
+        'https://play.google.com/store/apps/details?id=sa.gov.nelc.myfuturexapp',
     EXPRO_ADMIN_URL:
         'https://www.younes.expert/images/expro-admin-app-demo.gif',
     SDC_URL: 'https://soudah.sa/en',
@@ -100,7 +106,7 @@ export const EXTERNAL_URLS = {
     GITTUWAIQ_CODE_URL: 'https://github.com/younes-alturkey/git-tuwaiq',
     FARABI_URL: 'https://github.com/younes-alturkey/farabi',
     FARABI_CODE_URL: 'https://github.com/younes-alturkey/farabi',
-    EXPRO_URL: 'https://expro-admin.futurex.sa',
+    EXPRO_URL: 'https://nms.younes.expert',
     ALIENVSNARVA_GITHUB_URL:
         'https://github.com/younes-alturkey/alien-vs-narva',
     ALIENVSNARVA_URL: 'https://alien-vs-narva.netlify.app',
@@ -108,6 +114,8 @@ export const EXTERNAL_URLS = {
     VIDEOGAMES_GITHUB_URL: 'https://github.com/younes-alturkey/my-videogames',
     SAFHA_URL: 'https://safha-frontend.vercel.app',
     SAFHA_CODE_URL: 'https://github.com/younes-alturkey/safha-frontend',
+    TWK_APPS_URL:
+        'https://raw.githubusercontent.com/younes-alturkey/younes-alturkey/refs/heads/main/demos/twk-apps-demo.gif',
 }
 
 export const ARTICLES_URLS = {

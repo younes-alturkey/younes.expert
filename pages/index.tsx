@@ -20,7 +20,6 @@ import {
 import { FaCode, FaDatabase } from 'react-icons/fa'
 import { GiPencilBrush } from 'react-icons/gi'
 import { HiFire, HiOutlineMail } from 'react-icons/hi'
-import { SiHiveBlockchain } from 'react-icons/si'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 
 export default function HomePage() {
@@ -40,7 +39,7 @@ export default function HomePage() {
                         />
                     </div>
                     <h2 className={styles.sectionTitle}>
-                        {t.fullStackEngineer}
+                        {t.srSoftwareEngineer}
                     </h2>
 
                     <div
@@ -155,24 +154,24 @@ export default function HomePage() {
                     <h2 className={styles.sectionTitle}>{t.digitalProducts}</h2>
                     <div className={styles.gridContainer}>
                         <ProductCard
-                            title={t.safhaTitle}
-                            text={t.safhaDescription}
-                            code={EXTERNAL_URLS.SAFHA_CODE_URL}
-                            link={EXTERNAL_URLS.SAFHA_URL}
-                        />
-
-                        <ProductCard
-                            title={t.farabiTitle}
-                            text={t.farabiText}
-                            code={EXTERNAL_URLS.FARABI_URL}
-                            link={EXTERNAL_URLS.FARABI_URL}
+                            title={t.twkAppsTitle}
+                            text={t.twkAppsText}
+                            code={EXTERNAL_URLS.TWK_APPS_URL}
+                            link={EXTERNAL_URLS.TWK_APPS_URL}
                         />
 
                         <ProductCard
                             title={t.myFux}
                             text={t.myFuxText}
-                            code={EXTERNAL_URLS.NELC_URL}
-                            link={EXTERNAL_URLS.NELC_URL}
+                            code={EXTERNAL_URLS.MYFUX_URL}
+                            link={EXTERNAL_URLS.MYFUX_URL}
+                        />
+
+                        <ProductCard
+                            title={t.fuxTitle}
+                            text={t.fuxText}
+                            code={EXTERNAL_URLS.FUX_URL}
+                            link={EXTERNAL_URLS.FUX_URL}
                         />
 
                         <ProductCard
@@ -187,6 +186,20 @@ export default function HomePage() {
                             text={t.exproAdminText}
                             code={EXTERNAL_URLS.EXPRO_URL}
                             link={EXTERNAL_URLS.EXPRO_URL}
+                        />
+
+                        <ProductCard
+                            title={t.safhaTitle}
+                            text={t.safhaDescription}
+                            code={EXTERNAL_URLS.SAFHA_CODE_URL}
+                            link={EXTERNAL_URLS.SAFHA_URL}
+                        />
+
+                        <ProductCard
+                            title={t.farabiTitle}
+                            text={t.farabiText}
+                            code={EXTERNAL_URLS.FARABI_URL}
+                            link={EXTERNAL_URLS.FARABI_URL}
                         />
 
                         <ProductCard
@@ -290,14 +303,10 @@ export default function HomePage() {
                             linkedin={
                                 ARTICLES_URLS.BECOMINGWORLDCLASS_LINKEDIN_URL
                             }
-                            medium={
-                                ARTICLES_URLS.BECOMINGWORLDCLASS_LINKEDIN_URL
-                            }
                         />
                         <ArticleLinkCard
                             img={MEDIA_URLS.YAT_IMG_URL}
                             text={t.lawsOfUX10}
-                            medium={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
                             linkedin={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
                         />
                     </div>
@@ -310,8 +319,15 @@ export default function HomePage() {
                     <div className={styles.gridContainer}>
                         <CompanyCard
                             imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
+                            img={MEDIA_URLS.SALLA_IMG_URL}
+                            link="https://salla.com"
+                            text={t.salla}
+                        />
+
+                        <CompanyCard
+                            imgClassName="hover:opacity-75 dark:filter dark:brightness-0 dark:invert"
                             img={MEDIA_URLS.NELC_IMG_URL}
-                            link="https://nelc.gov.sa/en"
+                            link="https://nelc.gov.sa"
                             text={t.nelc}
                         />
                         <CompanyCard
@@ -370,26 +386,6 @@ export default function HomePage() {
                         />
 
                         <SkillCard
-                            title={t.aiLLMs}
-                            icon={
-                                <AiFillRobot
-                                    size={64}
-                                    className="text-ored hover:opacity-75"
-                                />
-                            }
-                        />
-
-                        <SkillCard
-                            title={t.blockchain}
-                            icon={
-                                <SiHiveBlockchain
-                                    size={64}
-                                    className="text-ored hover:opacity-75"
-                                />
-                            }
-                        />
-
-                        <SkillCard
                             title={t.uiDev}
                             icon={
                                 <FaCode
@@ -413,6 +409,16 @@ export default function HomePage() {
                             title={t.fullStackMobile}
                             icon={
                                 <BsFillPhoneFill
+                                    size={64}
+                                    className="text-ored hover:opacity-75"
+                                />
+                            }
+                        />
+
+                        <SkillCard
+                            title={t.aiLLMs}
+                            icon={
+                                <AiFillRobot
                                     size={64}
                                     className="text-ored hover:opacity-75"
                                 />
@@ -461,6 +467,10 @@ export default function HomePage() {
                         <TechCard title={t.js} img={MEDIA_URLS.JS_IMG_URL} />
                         <TechCard title={t.ts} img={MEDIA_URLS.TS_IMG_URL} />
                         <TechCard
+                            title={t.python}
+                            img={MEDIA_URLS.PYTHON_IMG_URL}
+                        />
+                        <TechCard
                             title={t.csharp}
                             img={MEDIA_URLS.CSHARP_IMG_URL}
                         />
@@ -476,6 +486,7 @@ export default function HomePage() {
                             title={t.react}
                             img={MEDIA_URLS.REACT_IMG_URL}
                         />
+                        <TechCard title={t.vue} img={MEDIA_URLS.VUE_IMG_URL} />
                         <TechCard
                             title={t.reactNative}
                             img={MEDIA_URLS.REACT_IMG_URL}
@@ -512,6 +523,10 @@ export default function HomePage() {
                         <TechCard
                             title={t.mongodb}
                             img={MEDIA_URLS.MONGODB_IMG_URL}
+                        />
+                        <TechCard
+                            title={t.redis}
+                            img={MEDIA_URLS.REDIS_IMG_URL}
                         />
                         <TechCard
                             title={t.mysql}

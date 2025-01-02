@@ -193,4 +193,13 @@ export type AppLocale = {
     safhaDescription: string
     xPosts: string
     xIsLoading: string
+    srSoftwareEngineer: string
+    twkAppsTitle: string
+    twkAppsText: string
+    fuxTitle: string
+    fuxText: string
+    salla: string
+    vue: string
+    redis: string
+    python: string
 }
