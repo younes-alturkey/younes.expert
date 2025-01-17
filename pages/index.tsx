@@ -588,7 +588,7 @@ const styles = {
     sectionTitle: 'text-2xl xl:text-5xl font-bold mb-8',
     sectionBodyCentered: 'leading-loose text-lg lg:text-2xl',
     sectionBody: 'leading-loose lg:w-8/12 text-center',
-    personalPhoto: 'w-full h-full object-cover object-bottom',
+    personalPhoto: 'w-full h-full object-cover object-top',
     scrollToBtn:
         'flex flex-col justify-center items-center gap-8 rounded-full p-2 bg-gradient text-light cursor-pointer hover:opacity-75 animate-bounce',
 }
