@@ -304,11 +304,6 @@ export default function HomePage() {
                                 ARTICLES_URLS.BECOMINGWORLDCLASS_LINKEDIN_URL
                             }
                         />
-                        <ArticleLinkCard
-                            img={MEDIA_URLS.YAT_IMG_URL}
-                            text={t.lawsOfUX10}
-                            linkedin={ARTICLES_URLS.LAWSOFUX10_LINKEDIN_URL}
-                        />
                     </div>
                 </section>
 
