@@ -217,13 +217,6 @@ export default function HomePage() {
                         />
 
                         <ProductCard
-                            title={t.soudahATSTitle}
-                            text={t.soudahATSText}
-                            code={EXTERNAL_URLS.SOUDAHATS_GITHUB_URL}
-                            link={EXTERNAL_URLS.SOUDAHATS_URL}
-                        />
-
-                        <ProductCard
                             title={t.spfTitle}
                             text={t.spfText}
                             code={EXTERNAL_URLS.SPF_URL}
