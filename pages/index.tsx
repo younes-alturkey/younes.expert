@@ -192,7 +192,7 @@ export default function HomePage() {
                             title={t.safhaTitle}
                             text={t.safhaDescription}
                             code={EXTERNAL_URLS.SAFHA_CODE_URL}
-                            link={EXTERNAL_URLS.SAFHA_URL}
+                            link={EXTERNAL_URLS.SAFHA_CODE_URL}
                         />
 
                         <ProductCard
