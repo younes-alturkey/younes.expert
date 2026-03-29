@@ -182,13 +182,6 @@ export default function HomePage() {
                         />
 
                         <ProductCard
-                            title={t.exproAdmin}
-                            text={t.exproAdminText}
-                            code={EXTERNAL_URLS.EXPRO_URL}
-                            link={EXTERNAL_URLS.EXPRO_URL}
-                        />
-
-                        <ProductCard
                             title={t.safhaTitle}
                             text={t.safhaDescription}
                             code={EXTERNAL_URLS.SAFHA_CODE_URL}
@@ -203,31 +196,10 @@ export default function HomePage() {
                         />
 
                         <ProductCard
-                            title={t.nuqtahTitle}
-                            text={t.nuqtahText}
-                            code={EXTERNAL_URLS.NUQTAH_URL}
-                            link={EXTERNAL_URLS.NUQTAH_URL}
-                        />
-
-                        <ProductCard
                             title={t.sdcTitle}
                             text={t.sdcText}
                             code={EXTERNAL_URLS.SDC_URL}
                             link={EXTERNAL_URLS.SDC_URL}
-                        />
-
-                        <ProductCard
-                            title={t.spfTitle}
-                            text={t.spfText}
-                            code={EXTERNAL_URLS.SPF_URL}
-                            link={EXTERNAL_URLS.SPF_URL}
-                        />
-
-                        <ProductCard
-                            title={t.flymizarTitle}
-                            text={t.flymizarText}
-                            code={EXTERNAL_URLS.FLYMIZAR_URL}
-                            link={EXTERNAL_URLS.FLYMIZAR_URL}
                         />
 
                         <ProductCard
@@ -242,19 +214,6 @@ export default function HomePage() {
                             text={t.gitTuwaiqText}
                             code={EXTERNAL_URLS.GITTUWAIQ_CODE_URL}
                             link={EXTERNAL_URLS.GITTUWAIQ_URL}
-                        />
-
-                        <ProductCard
-                            title={t.nahdiInTitle}
-                            text={t.nahdiInText}
-                            code={EXTERNAL_URLS.NAHDIIN_GITHUB_URL}
-                            link={EXTERNAL_URLS.NAHDIIN_URL}
-                        />
-                        <ProductCard
-                            title={t.nahdiMobileTitle}
-                            text={t.nahdiMobileText}
-                            code={EXTERNAL_URLS.NAHDIMOBILE_GITHUB_URL}
-                            link={EXTERNAL_URLS.NAHDIMOBILE_URL}
                         />
 
                         <ProductCard
